@@ -17,7 +17,7 @@
 	width: 100%;
 	//margin-left: 10%;
 	opacity: 0.6;
-	height: 70px;
+	height: 100px;
 	margin-top: 120px;
 	opacity: 0.7;
 }
@@ -29,6 +29,73 @@
 	color: #fff;  
 	font-family: 'Raleway-Light', sans-serif; 
 	font-size: 30px;
-	margin-top: -50px;
+	margin-top: -65px;
 	opacity: 0.6;
+}
+
+.h2-text
+{
+	font-family: 'Raleway-Light', sans-serif;
+	font-size: 35px;
+}
+
+.header-1 > a
+{
+	text-decoration: none;
+	background-position: 0 0;
+    transition: background-position 0.3s;
+    background-size: 200% auto;
+    margin-right: 5px;
+}
+
+.header-1 > a:hover
+{
+   background-position:  99.99% 0;
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+   background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+   background-image: -moz-linear-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+   background-image: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
+   color: #fff!important;
+   font-family: 'Raleway-Light', sans-serif;
+}
+
+.jumbotron p
+{
+	font-size: 17px!important;
+}
+
+.navbar-brand
+{
+	color: #000;
+	font-family: 'Raleway-Light', sans-serif;
+}
+
+.personal > img
+{
+	width: 65%;
+	//height: 85%;
+	//margin-top: 20%;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+
+.personal > a > img
+{
+	width: 85%;
+	height: 85%;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+
+.skychaser-logo > a
+{
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 30px;
+	color: #000;
+}
+
+.skychaser-logo > a:hover
+{
+	text-decoration: none;
+	color: #000;
 }
