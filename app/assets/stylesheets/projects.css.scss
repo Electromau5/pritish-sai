@@ -1,3 +1,29 @@
+/** Analytics **/
+
+.analytics-image
+{
+	margin-bottom: 25px;
+}
+.analytics
+{
+	font-family: 'Raleway-Regular', sans-serif;
+}
+
+.analytics-description
+{
+	font-family: 'Raleway-Light', sans-serif;
+	font-size: 15px;
+}
+
+/** Product **/
+
+.product-history-label
+{
+	font-size: 'Raleway-Medium', sans-serif;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
 .flex-direction-nav a 
 {
 	height: 50px;
@@ -6,8 +32,8 @@
 .project-name
 {
 	font-family: 'Raleway-Regular', sans-serif;
-	display: inline;
 	margin-left: 10px;	
+	display: inline;
 }
 
 .project-name-label
@@ -18,15 +44,14 @@
 
 .project-title-container
 {
-	text-align: center;
 	margin-top: 20px;
 }
 
 .project-site
 {
 	font-family: 'Raleway-Regular', sans-serif;
-	display: inline;
-	margin-left: 10px;	
+	margin-left: 10px;
+	display: inline;	
 }
 
 .project-site-label
@@ -37,7 +62,6 @@
 
 .project-site-container
 {
-	text-align: center;
 	margin-top: 20px;
 }
 
@@ -52,6 +76,7 @@
 {
 	font-family: 'Raleway-Medium', sans-serif;
 	font-size: 25px;
+	margin-top: 50px;
 }
 
 .project-evolution-label
@@ -61,6 +86,17 @@
 	margin-bottom: 25px;
 }
 
+.project-role-label
+{
+	font-family: 'Raleway-Medium', sans-serif;
+	font-size: 25px;
+}
+
+
+.role
+{
+	font-family: 'Raleway-Light', sans-serif;
+}
 .image
 {
 	display: inline;
