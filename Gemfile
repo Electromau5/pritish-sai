@@ -17,6 +17,8 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'fancybox-rails'
+gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+
 
 group :development, :test do
   gem 'byebug'

@@ -12,5 +12,6 @@
  *
  *= require fancybox
  *= require_self
+ *= require flexslider.css
  *= require_tree .
  */
