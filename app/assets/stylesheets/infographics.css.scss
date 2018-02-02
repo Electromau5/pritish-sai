@@ -79,13 +79,12 @@
 	margin-top: 40px;
 }
 
-
 /** End Platform Vision **/
 .circular-infograph
 {
   height: 0;
   position: relative;
-  width:100%;
+  width:80%;
   padding-top: 100%;
 }
 
@@ -103,14 +102,14 @@ circle {
 }
 .circle-back 
 {
-  stroke: #ecf0f1;
+  stroke: #8E0000;
   stroke-width: 50px;
 }
 
-.circle-front
+.circle-front-1
 
 {
-	stroke: #fc0023;
+	stroke: #fff;
 	stroke-width: 40px;
 	/* 2 * Math.PI * radius + 1  */
 	stroke-dasharray: 800px; /*629*/
@@ -125,7 +124,7 @@ circle {
 
 .circle-front-2 
 {
-	stroke: #003bd3;
+	stroke: #fff;
 	stroke-width: 40px;
 	/* 2 * Math.PI * radius + 1  */
 	stroke-dasharray: 600px; /*629*/
@@ -140,7 +139,7 @@ circle {
 
 .circle-front-3 
 {
-	stroke: #b78600;
+	stroke: #fff;
 	stroke-width: 40px;
 	/* 2 * Math.PI * radius + 1  */
 	stroke-dasharray: 439px; /*629*/
@@ -155,7 +154,7 @@ circle {
 
 .circle-front-4
 {
-	stroke: #00b211;
+	stroke: #fff;
 	stroke-width: 40px;
 	/* 2 * Math.PI * radius + 1  */
 	stroke-dasharray: 500px; /*629*/
@@ -194,5 +193,22 @@ circle {
 	font-size: 1.3em;
 }
 .greentext{
-	fill:#2ecc71;
+	fill:#000;
+	font-weight: bold;
+	font-family: 'Raleway-Medium', sans-serif;
+}
+
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-family: 'Raleway-Medium', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
 }
