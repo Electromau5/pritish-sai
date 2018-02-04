@@ -63,6 +63,7 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.3)
     debug_inspector (0.0.3)
+    elevatezoom-rails (1.0.0)
     erubis (2.7.0)
     execjs (2.7.0)
     fancybox-rails (0.3.1)
@@ -177,6 +178,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.5)
   byebug
   coffee-rails (~> 4.1.0)
+  elevatezoom-rails
   fancybox-rails
   flexslider!
   jbuilder (~> 2.0)

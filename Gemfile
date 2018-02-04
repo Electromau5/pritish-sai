@@ -18,6 +18,7 @@ gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'fancybox-rails'
 gem 'flexslider', :git => 'https://github.com/constantm/Flexslider-2-Rails-Gem.git'
+gem 'elevatezoom-rails'	
 
 
 group :development, :test do

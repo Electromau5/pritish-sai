@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require jquery.flexslider
 //= require fancybox
+//= require jquery.elevatezoom
 //= require_tree .
 
