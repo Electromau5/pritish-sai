@@ -1,5 +1,5 @@
 $(function() {
-  return $('#zoom').elevateZoom({
+  return $('.zoom').elevateZoom({
     zoomType: 'inner',
     lesSize: 200,
     responsive: true,

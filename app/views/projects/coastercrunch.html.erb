@@ -2,39 +2,51 @@
 	<h3 class="project-name-label">Project Name : </h3>
 	<h3 class="project-name">CoasterCrunch</h3><br><br>
 	<h3 class="project-site-label">HiFi Prototype : </h3>
-	<h3 class="project-site"><%= link_to 'CoasterCrunch', 'http://bit.ly/2nILr5J/', target: '_blank' %></h3>
+	<h3 class="project-site"><%= link_to 'CoasterCrunch', 'https://marvelapp.com/28idh73', target: '_blank' %></h3>
 	<h3 class="project-description-label">Description : </h3>
 		<p class="project-description">
 			CoasterCrunch is an app that was brainstormed at RIT. The main objective of the application is to create a less stressful theme park experience by utilising special passes in a digitized form, information on rides so theme park visitors can plan their trips accordingly, the option to create groups and meetups with friends and family at the theme park and an AR experience that includes an in-built gaming module which can be used to fight boredom during long lines as well as redeem points for prizes.
 		</p>
 		<h2 class="analytics"style="text-align:center">AFFINITY DIAGRAM</h2>
-  			<div class = "col-md-12">
-			<img src='/images/affinity.png'/><br><br><br>
-		</div>
+			<div class = "col-md-12 col-sm-12 col-lg-12">
+				<p style="font-family: 'Raleway-Regular',sans-serif; font-size: 15px">
+					This was the second version of the Affinity Diagram. Our first iteration was constructed based on the questions that we asked potential stakeholders. However based on the feedback we acquired, we reorganized all the information and categorized them based on the responses of the stakeholders. The three layers of post-it notes are based on key information that our stakeholders gave us that influenced their experience at a theme park including key demographic data, how they utilise their time there, how they perceive certain setbacks include long wait times and the group of people who they normally come with to the theme park to name a few.
+				</p>
+			</div>
+			<div class = "col-md-12 col-sm-12 col-lg-12">
+				<img class="zoom" src='/images/affinity.png' data-zoom-image="/images/affinity-zoom.jpg" /><br><br><br>
+			</div>
 
 		<h2 class="analytics"style="text-align:center">PERSONAS</h2>
 			<div class="flexslider">
     			<ul class="slides">
     		  		<li class="project-image1"><%= image_tag('/images/persona1.png') %>
-    		  			<p class="flex-caption">The primary persona is the parent who goes to a theme park with multiple children</p>
+    		  			<p class="flex-caption">The primary persona is the parent who goes to a theme park with 3 or more children. Major sources of stress for this stakeholder would be managing multiple demanding children during a theme park visit as well the overall expense. CoasterCrunch aims to reduce these stress factors.</p>
     		  		</li>
     		  		<li class="project-image2"><%= image_tag('/images/persona2.png') %>
-    		  			<p class="flex-caption">The second persona is the millennial who goes to a theme park with friends</p>
+    		  			<p class="flex-caption">The second persona is the millennial who goes to a theme park with friends and family. Long wait times and a limited budget limit the amount of fun a millennial will have at a theme park.</p>
     		  		</li>
 		      		<li class="project-image3"><%= image_tag('/images/persona3.png') %>
-		      			<p class="flex-caption">The third persona is the child who is under the care of a parent</p>
+		      			<p class="flex-caption">The third persona is the child who is under the care of a parent and the goal of the child is the most predictable i.e. they're looking to have as much fun as possible. The AR component of the app plays to this requirement.</p>
 		      		</li>
 		      		<li class="project-image2"><%= image_tag('/images/persona4.png') %>
-    		  			<p class="flex-caption">The fourth persona is a ride operator who works at the theme park</p>
+    		  			<p class="flex-caption">The fourth persona is a ride operator who works at the theme park. The ride operator is a first hand witness to the frustrations of the other key stakeholders and wishes there was a solution. </p>
     		  		</li>
 		      		<li class="project-image3"><%= image_tag('/images/persona5.png') %>
-		      			<p class="flex-caption">The fifth which is an anti-persona is the parent who sees the theme park as a source of added stress</p>
+		      			<p class="flex-caption">The fifth which is an anti-persona is the parent that is family-oriented and sees the app as a device that will not add any value to the theme park experience.</p>
 		      		</li>
     			</ul>
   			</div>
 		<h2 class="analytics"style="text-align:center">LOFI PROTOTYPE</h2>
-  		<div class = "col-md-12">
-			<img id="zoom" src='/images/lofi.png' data-zoom-image="/images/lofi-zoom.png"/><br><br><br>
+			<h3 style="font-family:'Raleway-Regular', sans-serif; font-size: 20px">FOUR CORE FEATURES OF THE APP</h3>
+				<ol>
+					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">TICKETS - Stakeholders can gain access to a Day or Season pass to a specific theme park. This portion of the app has a standard checkout feature for stakeholders to purchase passes.</li>
+					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">RIDES - Potential stakeholders can gain information about rides including ride times and wait times.</li>
+					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">MAPS - This part of the app will allow stakeholders to create a group that will help keep track of each other while at the park as well initiate meeting points in the event that one or more of them lose their way.</li>
+					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">MY EXPERIENCE - 'My Experience' is a feature that combines AR and gaming to create an experience that engages stakeholders to hunt for virtual objects in a real world environment (we used Harry Potter as an example) and redeem points for all items found. The AR component also includes pre-rendered animations for specific locations that stakeholders can use to keep themselves engaged while waiting in lines.</li><br>
+				</ol>
+		<div class = "col-md-12">
+			<img class="zoom" src='/images/lofi.png' data-zoom-image="/images/lofi-zoom.png"/><br><br><br>
 		</div>
 		<h2 class="analytics"style="text-align:center">HIFI PROTOTYPE - "MY EXPERIENCE" FEATURE</h2>
   			<div class="prototype">
