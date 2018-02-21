@@ -15,4 +15,7 @@ class ProjectsController < ApplicationController
   def crkannan
   end
 
+  def amazon
+  end
+
 end

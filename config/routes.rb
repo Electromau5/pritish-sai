@@ -6,5 +6,6 @@ get 'projects/coastercrunch'
 get 'projects/felixcalis'
 get 'projects/vaibhavgupta'
 get 'projects/crkannan'
+get 'projects/amazon'
 
 end
