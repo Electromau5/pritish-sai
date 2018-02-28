@@ -18,4 +18,22 @@ class ProjectsController < ApplicationController
   def amazon
   end
 
+  def ukgas
+  end
+
+  def regression
+  end
+
+  def data_discovery
+  end
+
+  def final_stats
+  end
+
+  def rm1
+  end
+
+  def foundations
+  end
+
 end
