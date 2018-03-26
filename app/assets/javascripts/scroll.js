@@ -1,11 +1,11 @@
 $(document).ready(function(){
-	$('a').click(function(){
-    	$('html, body').animate({
-        	scrollTop: $( $(this).attr('href') ).offset().top
-    	}, 500);
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
     return false;
 });
-	 /* Every time the window is scrolled ... */
+     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
     
         /* Check the location of each desired element */
@@ -21,10 +21,10 @@ $(document).ready(function(){
                     
             }
             else
-            	if ( sbottom_of_window < bottom_of_object ) {
+                if ( sbottom_of_window < bottom_of_object ) {
 
-            		$(this).animate({'opacity': '0'}, 500);
-            	}
+                    $(this).animate({'opacity': '0'}, 500);
+                }
         }); 
     
     });
