@@ -36,4 +36,7 @@ class ProjectsController < ApplicationController
   def foundations
   end
 
+  def sketches
+  end
+
 end

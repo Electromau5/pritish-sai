@@ -13,5 +13,6 @@ get 'projects/regression'
 get 'projects/final_stats'
 get 'projects/rm1'
 get 'projects/foundations'
+get 'projects/sketches'
 
 end
