@@ -1,11 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-/**
 
+/**
 .project:hover
 {
 	background-color: #000;
-	background-size: 100px;
+	background-size: 50px;
 }
 
 .project img 
@@ -51,5 +51,149 @@ span.black-bg:hover
 	opacity: 1;
 	transform: scale(1.1); 
 }
-
 */
+
+.bg-one 
+{
+  background-image: url(portfolio/wmt.jpg);
+}
+.bg-two
+{
+  background-image: url(portfolio/felix.jpg);
+}
+
+.bg-three 
+{
+  background-image: url(portfolio/vg.jpg);
+}
+
+.bg-four 
+{
+  background-image: url(portfolio/crk.jpg);
+}
+
+.bg-five
+{
+  background-image: url(portfolio/coaster.jpg);
+}
+
+.bg-six
+{
+  background-image: url(portfolio/pencil-book.jpg);
+}
+
+.bg-seven
+{
+   background-image: url(research/amazon-2.png);
+}
+
+.bg-eight
+{
+   background-image: url(research/ofgem.png);
+}
+
+.bg-nine
+{
+   background-image: url(research/regression.png);
+}
+
+.bg-ten
+{
+   background-image: url(research/data-discovery.png);
+}
+
+.bg-eleven
+{
+   background-image: url(research/final_stats.png);
+}
+
+.bg-twelve
+{
+   background-image: url(research/distracted-walking.png);
+}
+
+
+span a 
+{
+    display: none;
+    font-size: 25px;
+    color: #ffffff !important;
+    font-family: 'Raleway-Light', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+span a:hover
+{
+  text-decoration: none;
+}
+
+.project-parent {
+    //width: 45%;
+    margin-bottom: 25px;
+    height: 300px;
+    //border: 1px solid blue;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.project-child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.project-parent:hover .project-child, .project-parent:focus .project-child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.project-parent:hover .project-child:before, .project-parent:focus .project-child:before {
+    display: block;
+}
+
+.project-parent:hover a, .project-parent:focus a {
+    display: block;
+}
+
+.project-child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px) {
+    .project-parent {width: 100%; margin: 20px 0px}
+        .wrapper {padding: 20px 20px;}
+}
+
+
+
+
+.hello {display: none}
