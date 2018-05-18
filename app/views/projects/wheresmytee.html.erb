@@ -1,4 +1,5 @@
-<div class="container" style="margin-top: 25px">
+<body>
+<div class="container-fluid" style="margin-top: 25px">
 	<h3 class="project-name-label">Project Name : </h3>
 	<h3 class="project-name">Where's My Tee?</h3><br><br>
 	<h3 class="project-site-label">Site : </h3>
@@ -6,218 +7,285 @@
 	<h3 class="project-site-label">GitHub : </h3>
 	<h3 class="project-site"><%= link_to 'http://bit.ly/2E51ClI', 'http://bit.ly/2E51ClI/', target: '_blank' %></h3><br><br>
 	<h3 class="project-site-label">Initial Business Proposition : </h3>
-	<h3 class="project-site"><%= link_to 'Proposal for Partnerships', 'https://docs.google.com/document/d/1SBo_GLXqASU53vfGb4dJ93Ageyr1HvIFHYpw5kxe-5o/edit?usp=sharing', target: '_blank' %></h3>
-	<h3 class="project-description-label">Description : </h3>	
-	<p class="project-description">
-		Where's My Tee? started out as a very basic platform that served as a craigslist type website that only connected small online businesses with potential consumers. The idea essentially began as a combination of pinterest, twitter and craigslist. When I built the first iteration of the platform, I targeted businesses in many consumer sectors including jewelry, accessories, clothing and household items to name a few. Soon, the site morphed into a platform that only showcased T-Shirts because I wanted the marketing to be targeted to a specific demographic. Today, Where's My Tee? has varied forms of audience engagement and can be used as a site to follow T-Shirt brands, save T-Shirts to a personal catalog and share T-Shirt designs on social platforms.
-	</p>
-	<h3 style="text-align:center; font-family: 'Raleway-Regualr', sans-serif; font-size: 25px">Vision of the Platform:</h3><br><br>
-		<div class = "container">
-			<div class="col-md-3 col-sm-12">
-				<div class = "vision-circle-1"><p>Make T-Shirt Search Extremely Simple</p></div>
+	<h3 class="project-site"><%= link_to 'Proposal for Partnerships', 'https://docs.google.com/document/d/1SBo_GLXqASU53vfGb4dJ93Ageyr1HvIFHYpw5kxe-5o/edit?usp=sharing', target: '_blank' %></h3><br><br><br>
+	<div class="dev-project-roles">
+		<div class="dev-role">UX DESIGN</div>
+		<div class="dev-role">WEB APP DEVELOPMENT</div>
+		<div class="dev-role">MARKETING MATERIALS</div>
+		<div class="dev-role">USER TESTING</div>
+		<div class="dev-role">BUSINESS DEVELOPMENT</div>
+	</div><br>
+	<div class="jumbotron" style="width: 100%; background-color: #0062C2">
+		<h3 class="dev-project-description-label" style="color: #fff; font-size: 60px">MAKE T-SHIRT SEARCH A SIMPLE PROCESS</h3>	
+			<p class="dev-project-description" style="color: #fff; font-size: 20px">
+				The rise of the e-Commerce sector in India has given way to a large number of independent platforms to manufacture original t-shirts based on designs ranging from pop-culture to motivation to random designs. 
+			</p><br>
+			<p class="dev-project-description" style="color: #fff; font-size: 20px">
+				However with the increase in number of online retailers, it is extremely hard for a consumer to find all the designs they want on one platform. They have to navigate from one website to another because each website caters to different type of designs based on a consumer's interests.
+			</p><br>
+			<p class="dev-project-description" style="color: #fff; font-size: 20px">
+				Where's My Tee? or WMT aims to get every single online T-Shirt retailer in India to upload all their products to its platform so consumers would have one universal website to find all the designs they want and make purchases on the brand's own websites. Essentially WMT is a T-Shirt aggregator that aims to increase incoming traffic for all the brands that showcase their products.
+			</p>
+	</div>
+	<div class="cem-web-image" >
+			<%= image_tag('wmt/HiFi/landing.png') %>
+	</div><br>
+	<div class="jumbotron" style="background-color: #fff">
+	<h4 class="chapter">CHAPTER 1: "3 GUYS AND AN IDEA"</h4>
+		<h3 class="dev-project-description-label">CONTENT. ECOMMERCE. MARKETING</h3>	
+			<p class="dev-project-description">
+				The first version of the product was radically different from what WMT ultimately became. The working title for the project was 'Content-eCommerce-Marketing' or 'CEM'. The objective of the platform was to create reviews for a variety of topics and then connect those reviews to similar products. The 'Content' portion of the website were the reviews, the e-Commerce were the products connected to each review and marketing was focused on bringing brand awareness for the retailers of those products.	
+			</p><br>
+			<div class="highlights">
+				"The objective of the platform was to create reviews for a variety of topics and then connect those reviews to similar products"
+			</div><br>
+			<p class="dev-project-description">
+				We were partially inspired by Pinterest and that's why we chose to use a grid system for the reviews on the landing page. The images themselves resemble polaroids as we used a border radius with a grey background. This was the first version of the grid system that was consistent throughout every iteration of the product.
+			</p>
+			<div class="cem-web-image" >
+				<%= image_tag('wmt/phase1/landing1.png') %><br>
 			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class = "vision-circle-2"><p>Build a Community</p></div>
-			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class = "vision-circle-3"><p>Create Brand Awareness</p></div>
-			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class = "vision-circle-4"><p>Convert Engagement to Sales</p></div>
-			</div>
-		</div>
-	<h3 class="project-evolution-label">First Version : </h3>
-		<div class="row">
-			<div class= 'wmt-iteration-1 col-md-12 col-xs-12'>
-					<%= image_tag('wmt/iteration-1.png') %>
-			</div>
-		</div>
-	<h3 class="project-evolution-label">Final Version : </h3>
-		<div class="row">
-			<div class= 'wmt-iteration-1 col-md-12 col-xs-12'>
-					<%= image_tag('wmt/iteration-2.png') %>
+	</div>
+	<div class="jumbotron">
+		<h3 class="dev-project-description-label">AN EDITABLE REVIEW SYSTEM</h3>
+			<p class="dev-project-description">
+				Reviews were one of the two primary reasons for users to come to the CEM website. Our initial goal was to create reviews not just for consumer products, but television shows and movies as well. 
+			</p>
+				<p class="dev-project-description">
+					The premise of CEM was simple.
+				</p> 
+			<ol class="dev-project-description">
+				<li>Find a review that you like.</li>
+				<li>Engage with the content.</li>
+				<li>Find products related to the content right below the review.</li>
+				<li>Read about the product details by clicking on the product.</li>
+				<li>Find a link in the product page that takes you to a site where the product is available for purchase.</li>
+			</ol>
+		<p class="dev-project-description">
+			One of the challenges of uploading different reviews was that products coming under different categories could not be reviewed based on the same factors. For example, you can review individual hardware specs for a laptop, but you cannot review a TV show in the same way. 
+		</p><br>
+		<div class="highlights">
+			"An onboarding system that allowed a reviewer to not just rate the product on individual factors, but to create the factors themselves"
+		</div><br><br>
+		<p class="dev-project-description">
+			We were able to offset this problem by building an onboarding system that allowed a reviewer to not just rate the product on individual factors, but to create the factors themselves. A reviewer can decide which components of a product should be higlighted and reviewed before publishing it. In addition, we wanted to use the same font for the text related to the reviews as well as the same design for the star system to maintain consistency.
+		</p>
+		<div class='cem-web-image'>
+			<%= image_tag('wmt/phase1/review1.png') %><br>
+			<p class="image-notes">
+				A Laptop review where the reviewer has chosen to rate the laptop on Design, Features, Performance, Battery Life, and Value for Money along with individual hardware specs
+			</p>
+			<%= image_tag('wmt/phase1/review2.png') %><br>
+			<p class="image-notes">
+				A TV Show review where the reviewer has chosen to rate the show on Plot, Pacing, Impact of Episode, Acting, and Direction along with individual details of the show's production
+			</p>
 		</div>
 	</div>
-	<h3 class="project-role-label">My Roles : </h3>
-	
-		<p class="role">Developed the entire platform without a tech team</p>
-		<p class="role">Worked on the wireframes as well as the final design</p>
-		<p class="role">Built and tested multiple iterations of the platform</p>
-		<p class="role">Marketed the platform using organic and paid strategies on Facebook and Instagram</p>
-		<p class="role">Initiated SEO strategies including backlinking and keyword optimization for better search results</p>
-		<p class="role">Analysed the data using Google Analytics and Search Console and initiated subsequent strategies to increase platform engagement</p><br><br>
-	
-	<h3 class="project-role-label">Site Features : </h3>
-
-		<p class="role">User and Seller Authentication system</p>
-		<p class="role">Option for sellers to upload T-Shirt designs and input basic features for each product</p>
-		<p class="role">Option for users to follow/ unfollow Sellers </p>
-		<p class="role">Option for users to save T-Shirts to personal catalog</p>
-		<p class="role">Option for users to share T-Shirt designs on Facebook, Twitter, Pinterest and Google+</p><br><br>
-
-	<!-- DESIGN -->
-	<h2 class="analytics"style="text-align:center">DESIGN</h2>
-  		<div class="prototype">
-			<%= image_tag('wmt/prototype.png') %>
-  		</div><br><br>
-
-  	<!-- MARKETING AND GROWTH -->
-
-	<h2 class="analytics" style="text-align:center">MARKETING AND GROWTH</h2><br>
-	<p style="font-family: 'Raleway-Regular',sans-serif; font-size: 15px">One of the biggest challenges with marketing this platform was that we wanted to improve metrics that were specific to audience engagement such as page views, the average time on the best performing pages and the bounce rates. Studying each of these metrics helped us understand the audience's reaction to the design and the functionality.</p>
-	<h3 class="wireframe-title">Facebook Advertising - WEB v MOBILE</h3>
+	<div class="jumbotron" style="background-color: #fff">
+		<h3 class="dev-project-description-label">COME FOR THE CONTENT. STAY FOR THE COMMERCE</h3>
+			<p class="dev-project-description">
+				Once a user has finished reading a review, then can scroll down to find products that are related to the content they just viewed. These products can vary depending on the type of review. For example, a Razer Laptop Review would be followed by other Razer-related products or products from a similar category like gaming hardware. A review of a TV Show would essentially be followed by merchandise related to that TV Show.
+			</p>
+			<p class="dev-project-description">
+				The design of the products under the review included a basic grey border because all the images were taken from other e-Commerce sites and did not have a background so it was either change the color of the background or use a grey border to individualize each product.
+			</p><br>	
+				<div class="cem-ad-row">
+						<div class="cem-ad">
+							<%= image_tag('wmt/phase1/product1.png') %>
+						</div>
+						<div class="cem-ad">
+							<%= image_tag('wmt/phase1/product2.png') %>
+						</div>
+				</div><br><br><br>
+					<p class="dev-project-description">
+						When working on the first version of the platform, we did not put too much emphasis on making the design perfect because we wanted to launch fast and get user feedback. The out-of-place blue borders (images below) that encompassed the price of each product as well as the 'Add to Cart' and 'Buy Now' were a testament to our goal of launching the platform fast without thinking too much about the aesthetics. However, the layout of product information was based on the regular layouts used by e-Commerce websites to showcase products.
+					</p>
+					<div class="highlights">
+						"We did not put too much emphasis on making the design perfect because we wanted to launch fast and get user feedback"
+					</div><br><br>
+					<p class="dev-project-description">
+						All the information and images are onboarded manually through the system's onboarding feature (which is very similar to uploading a review).
+					</p>
+					<p class="dev-project-description">
+						One of the mistakes we were able to discover early on was that the plugin we were using to zoom-in on the images (elevateZoom) was obstructing the text on the right. We rectified this in future versions of the platform with the API.
+					</p><br>
+					<div class="cem-listng-row">
+						<div class="cem-listing">
+							<%= image_tag('wmt/phase1/listing1.png') %>
+						</div>
+						<div class="cem-listing">
+							<%= image_tag('wmt/phase1/listing1-1.png') %>
+						</div>
+					</div>
+			</div>
+			<div class="jumbotron">
+				<h3 class="dev-project-description-label">WHAT ULTIMATELY HAPPENED TO THIS VERSION</h3>
+				<p class="dev-project-description">
+					CEM was hard to scale for a number of reasons...
+					<ol class="dev-project-description">
+						<li>We needed to consistently create content to stay alive. We were engineers, designers, and entreprenerus. What we were not were journalists</li>
+						<li>A major prorportion of our content needed to be tech reviews. We did not have access to a lot of the products we wanted to showcase on the site</li>
+						<li>Growing a content platform was the not the same as growing an e-Commerce or Social Media website</li>
+					</ol>
+				</p>
+				<div class="highlights">
+					"What we were not were journalists"
+				</div><br>
+				<h4 class="chapter">IT WAS TIME TO PIVOT</h4>
+			</div>
+	<div class="jumbotron" style="background-color: #fff">
 		
-		<div class="flexslider">
-    		<ul class="slides">
-    		  <li class="project-image1"><%= image_tag('wmt/facebook-data.png') %>
-    		  	<p class="flex-caption">The results of a Facebook ad campaign based on gaming tees and targeted to gamers</p>
-    		  </li>
-    		  <li class="project-image2"><%= image_tag('wmt/google-data-1.png') %>
-    		  	<p class="flex-caption">The analytics show a high bounce rate which meant consumers were leaving the site after being redicted from a web based facebook ad.</p>
-    		  </li>
-		      <li class="project-image3"><%= image_tag('wmt/google-data-2.png') %>
-		      	<p class="flex-caption">The bounce rates were much lower as traffic was redirected from Facebook mobile to the mobile version of the site which showed greater engagement</p>
-		      </li>
-    		</ul>
-  		</div>
-  		<div class="flexslider">
-    		<ul class="slides">
-    		  <li class="project-image1"><%= image_tag('wmt/facebook-data-1a.png') %>
-    		  	<p class="flex-caption">The results of a Facebook ad campaign based anime themed tees</p>
-    		  </li>
-    		  <li class="project-image2"><%= image_tag('wmt/google-data-1a.png') %>
-    		  	<p class="flex-caption">Similar to the charts shown above, users were not engaging with the web version version of the site as much as we predicted.</p>
-    		  </li>
-		      <li class="project-image3"><%= image_tag('wmt/google-data-2a.png') %>
-		      	<p class="flex-caption">Traffic from Facebook's Mobile ads were consistent. Users really connected with the mobile version of the site.</p>
-		      </li>
-    		</ul>
-  		</div>
-  		<h5 style="font-family:'Raleway-Regular',sans-serif; font-size:25px">What did we learn</h5>
-  		<ol>
-  			<li style="font-family:'Raleway-Regular',sans-serif; font-size: 16px">Facebook may have pushed traffic that was much more active on phones than on desktops</li><br>
-  			<li style="font-family:'Raleway-Regular',sans-serif; font-size: 16px">Users appreciated that our site was responsive across a large number of mobile devices and resolutions</li><br>
-  			<li style="font-family:'Raleway-Regular',sans-serif; font-size: 16px">Targeted marketing is extremely important based on the interests of the audience</li><br>
-  			<li style="font-family:'Raleway-Regular',sans-serif; font-size: 16px">Simple design that is minimalist is easier to navigate</li>
-  		</ol><br>
-  
-  		<h5 class="wireframe-title">TRAFFIC CHANNELS</h5>
-		<div class="row">
-			<div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-				<h3>Direct Traffic</h3>
-				<div class="circular-infograph">
-  					<svg version="1.1" class="svgdonut" viewBox="0 0 250 250" preserveAspectRatio="xMinYMin meet">
-    					<defs>
-      						<linearGradient id="quotaDonut__gradient">
-        						<stop stop-color="#2ecc71" offset="0%"></stop>
-        						<stop stop-color="#27ae60" class="quotaDonut__gradientStopEnd" offset="100%"></stop>
-      						</linearGradient>
-    					</defs>
-						<g transform="translate(115, 115)">
-      						<circle r="70" class="circle-back" />
-      						<circle r="70" class="circle-front-1" transform="rotate(270.1)" />
-    					</g>
-						<g class="textpercentage">
-      						<text x="39%" y="50%" class="greentext">871</text>
-    					</g>
-  					</svg>
-				</div>
+															
+
+
+															<!-- CHAPTER 2 -->
+
+		
+		<h4 class="chapter">CHAPTER 2: SCALE IT DOWN</h4>
+			<div class="dev-project-description-label">
+				PLAY TO OUR STRENGTHS
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-				<h3>Social Traffic</h3>
-				<div class="circular-infograph">
-  					<svg version="1.1" class="svgdonut" viewBox="0 0 250 250" preserveAspectRatio="xMinYMin meet">
-    					<defs>
-      						<linearGradient id="quotaDonut__gradient">
-        						<stop stop-color="#2ecc71" offset="0%"></stop>
-        						<stop stop-color="#27ae60" class="quotaDonut__gradientStopEnd" offset="100%"></stop>
-      						</linearGradient>
-    					</defs>
-						<g transform="translate(115, 115)">
-      						<circle r="70" class="circle-back" />
-      						<circle r="70" class="circle-front-2" transform="rotate(270.1)" />
-    					</g>
-						<g class="textpercentage">
-      						<text x="39%" y="50%" class="greentext">504</text>
-    					</g>
-  					</svg>
-				</div>
+			<p class="dev-project-description">
+				Our next version was called 'Aquamyst' (the name did not resonate with people as well as would've wanted, but it was again part of our testing phase). We decided to relaunch the website without the 'Review' feature, and only include consumer products. 
+			</p><br>
+			<div class="highlights">
+				"We knew that competing websites had a monopoly over the users we wanted to target with our content."
+			</div><br>
+			<p class="dev-project-description">		
+				The final result was a platform that combined elements of Pinterest and Craigslist except we decided to go with a standard B2C model (unlike Craigslist which follows a C2C model). We knew that competing websites had a monopoly over the users we wanted to target with our content. Our team was also down to 2 people. One of the team members left because they did not agree on removing the content portion of the website.
+			</p>
+		<div class="container">
+			<div class='aquamyst-landing'>
+					<%= image_tag('wmt/phase1/aqua1.png') %>
+						<h5 class="dev-project-description-label" style="font-size: 30px; margin-top: 50px">WHAT DID WE DO</h5>
+						<p class="dev-project-description-sidetext">
+							We removed the review system and changed the type of products we were going to showcase on the website. Originally focused on advanced electronic and tech-based products, the new version of the website pivoted to advertising consumer based products like clothing and accessories. The rationale here was that consumers would not have to think long before making a purchase which was not the case with our first version.
+						</p>
 			</div>
-		<div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-			<h3>Organic Traffic</h3>
-				<div class="circular-infograph">
-  					<svg version="1.1" class="svgdonut" viewBox="0 0 250 250" preserveAspectRatio="xMinYMin meet">
-    					<defs>
-      						<linearGradient id="quotaDonut__gradient">
-        						<stop stop-color="#2ecc71" offset="0%"></stop>
-        						<stop stop-color="#27ae60" class="quotaDonut__gradientStopEnd" offset="100%"></stop>
-      						</linearGradient>
-    					</defs>
-						<g transform="translate(115, 115)">
-      						<circle r="70" class="circle-back" />
-      						<circle r="70" class="circle-front-3" transform="rotate(270.1)" />
-    					</g>
-						<g class="textpercentage">
-      						<text x="39%" y="50%" class="greentext">249</text>
-    					</g>
-  					</svg>
-				</div>
+		</div>
+		<div class="container">
+			<div class='aquamyst-landing'>
+					<%= image_tag('wmt/phase1/aqua2.png') %>
+					<h5 class="dev-project-description-label" style="font-size: 30px; margin-top: 50px">SETTING DESIGN PRINCIPLES</h5>
+						<p class="dev-project-description-sidetext">
+							For a while, the design of the header section was consistent. We decided to keep the black background with white text because it helped distinguish the header from the rest of the website. We always wanted the brand name to be top left. The Login button needed a lot of work because the text morphed into the background. We were debating where to place the search bar and decided to put it top right as part of our initial phase. In addition, each category has a number of sub-categories, each with a round border to make them standout.
+						</p>
 			</div>
-		<div class="col-md-3 col-xs-12 col-sm-12 col-lg-3">
-			<h3>Referral Traffic</h3>
-				<div class="circular-infograph">
-  					<svg version="1.1" class="svgdonut" viewBox="0 0 250 250" preserveAspectRatio="xMinYMin meet">
-    					<defs>
-      						<linearGradient id="quotaDonut__gradient">
-        						<stop stop-color="#2ecc71" offset="0%"></stop>
-        						<stop stop-color="#27ae60" class="quotaDonut__gradientStopEnd" offset="100%"></stop>
-      						</linearGradient>
-    					</defs>
-						<g transform="translate(115, 115)">
-      						<circle r="70" class="circle-back" />
-      						<circle r="70" class="circle-front-4" transform="rotate(270.1)" />
-    					</g>
-						<g class="textpercentage">
-      						<text x="39%" y="50%" class="greentext">137</text>
-    					</g>
-  					</svg>
-				</div>
-			</div>
+		</div>
+
 	</div>
-<!-- Demographic Data -->
-<h3 class="wireframe-title">DEMOGRAPHIC ENGAGEMENT</h3>
-<ul class="chart">
-  <li>
-    <span style="height:56.70%" title="18-24"></span>
-  </li>
-  <li>
-    <span style="height:27.63%" title="25-34"></span>
-  </li>
-  <li>
-    <span style="height:5.98%" title="35-44"></span>
-  </li>
-  <li>
-    <span style="height:3.71%" title="45-54"></span>
-  </li>
-</ul>    
-
-
-	<!--
-	<div class="analytics-image">
-		<%= image_tag('wmt/analytics-complete.png') %>
+	<div class="jumbotron">
+		<div class="dev-project-description-label">
+			DECIDING ON THE BRANDS
+		</div>
+		<p class="dev-project-description">
+			My co-founder who was in charge of market research found 100 of the fastest growing independent brands in India who we could partner with to showcase their merchandise. We wanted to only work with smaller brands who recently entered the market. 
+		</p><br>
+		<div class="highlights">
+			"I was able to break each brand down to their target demographic, product categories, designs and where they were selling their merchadise"
+		</div><br>
+		<p class="dev-project-description">
+			Once I was given the list of 100 brands, I individually researched each and every of them. I went through their products, facebook pages and websites. I was able to break each brand down to their target demographic, product categories, designs and where they were selling their merchadise. I would then individually contact each and every of those businesses to see if they would like to partner with us.
+		</p>
+		<div class='cem-web-image'>
+			<%= image_tag('wmt/phase1/aqua3.png') %><br>
+		</div>
 	</div>
-	<p class="analytics-description">
-		The traffic that was generated was a combination of social media marketing, SEO and word of mouth. Building consistency in terms of traffic was a challenging task since we only wanted to work with brands that sold specific designs targeted to specific users.
-	</p>
-
-	<h4 class="analytics">The most Successful Social Engagement Metrics in the Platform's history</h4>
-	<div class="analytics-image">
-		<%= image_tag('wmt/analytics-complete.png') %>
+	<div class="jumbotron" style="background-color: #fff">
+		<div class="dev-project-description-label">
+			CREATING BRAND AWARENESS FOR SMALL BUSINESSES
+		</div>
+		<p class="dev-project-description">
+			Our objectives were simple. We wanted to generate as much traffic as possible through the collection of products, but we also wanted to expose users to these small to mid-sized brands that manufactured and designed these products. There are a very small number of companies that function as a monopoly in the Indian e-Commerce market, but there are hundreds of smaller online businesses looking to get a share of that market. We wanted to help those businesses.
+		</p><br>
+		<div class="highlights">
+			"Expose users to these small to mid-sized brands that manufactured and designed these products"
+		</div><br>
+		<p class="dev-project-description">
+			The product listing page that we used still had a very similar layout to the one we used on CEM. We experimented with the design of the 'Cash on Delivery' or COD option (which is very popular in India as a lot of consumers do not trust online payment gateways) as well as the 'Delivery Time' button. Our designs were meant to be clean from day one.
+		</p>
+		<div class='cem-web-image'>
+			<%= image_tag('wmt/phase1/aqua4.png') %><br>
+		</div>
+		<p class="dev-project-description">
+			Once a user clicks on 'More from this Seller' button at the bottom of the product listing, they are redirected to a page that lists all the details of the brand behind the product. This is where the 'Social' aspect of the platform comes into play. The Seller Page includes links to all their social media profiles (which we chose to be monochromatic) as well as a 'Follow' button so users can keep track of new items in the Seller's collection.
+		</p>
+		<div class='cem-web-image'>
+			<%= image_tag('wmt/phase1/aqua5.png') %><br>
+		</div>
 	</div>
-	<p class="analytics-description">
-		There were a number of social media campaigns
-	</p>
-	-->
+		<div class="jumbotron">
+				<h3 class="dev-project-description-label">WHY AQUAMYST NEEDED TO CHANGE</h3>
+				<p class="dev-project-description">
+					Like CEM, Aquamyst had it's own set of issues....
+					<ol class="dev-project-description">
+						<li>Too many product categories created marketing issues. It was hard to define one specific demographic to target with a large set of product categories</li>
+						<li>Each business we contacted had their own agenda based on what they wanted from us.</li>
+						<li>It was quite possible that there would've been product imbalance. Our goal was to cater to all categories , but we found out that most businesses favored one product over the other in their inventory.</li>
+					</ol>
+				</p>
+				<div class="highlights">
+					"Too many product categories created marketing issues"
+				</div><br>
+				<h4 class="chapter">WE MADE PROGRESS, BUT WE NEEDED TO PIVOT ONE LAST TIME</h4>
+			</div>
 
-</div>
+
+								<!-- CHAPTER 3 -->
+	<div class="jumbotron" style="background-color: #fff">
+		<h4 class="chapter">CHAPTER 3: WHERE'S MY TEE?</h4>
+		<h3 class="dev-project-description-label">MOBILE FIRST. MOBILE ALWAYS FIRST.</h3>
+		<p class="dev-project-description">
+			From day one, we wanted to make sure the web app is mobile responsive. We used bootstrap to make sure that the interactions were seamless on any resolution. All our marketing data indicated that we were getting most of our traffic from mobile so it was extremely important to allow users and sellers with any device to make use of all the functions of the web app.
+		</p>
+			<div class='cem-web-image'>
+				<%= image_tag('wmt/HiFi/wmt123.png') %><br>
+			</div>
+			<p class="dev-project-description">
+				<b>FRAME1 + FRAME2</b><br>
+				When a user enters the web app for the first time, they can click on the dropdown menu on the top right which exposes a search bar, a Login button, and a Sign Up button. Normally, apps would place these buttons on the same navbar as the logo, but I wanted to have the entire WMT logo to be consistently seen. We did contemplate creating a smaller logo that would take up less space, but we decided to keep the original logo.<br><br> 
+				<b>FRAME3</b><br>
+				The text on the Login page is a testament to the kind of users whom we hope to target - Milennials. The terminology is constructed to be less sterile and more in line with a younger generation of users. We want to welcome them to the app.
+			</p>
+			<div class='cem-web-image'>
+				<%= image_tag('wmt/HiFi/wmt345.png') %><br>
+			</div>
+			<p class="dev-project-description">
+				<b>FRAME1 + FRAME2</b><br>
+				A user can click on the 'Brands' button and gets redirected to a page that lists all the brands that have onboarded T-Shirts on the app. The brand's name appears in front of the logo when the user hovers over it.
+				<br><br> 
+				<b>FRAME3</b><br>
+				Accessing the profile page of the brand behind the product gives users the option to access their social profiles as well. In addition, a user can follow the brand which will get added to their own profile page. The page contains a logo of the brand followed by a brief description about the business as well as the location of the business.
+			</p>
+			<div class='cem-web-image'>
+				<%= image_tag('wmt/HiFi/wmt7891011.png') %><br>
+			</div>
+			<p class="dev-project-description">
+				<b>FRAME1 + FRAME2</b><br>
+				A user can click on the 'Collections' button and gets redirected to a page that lists all the Collections of onboarded T-Shirts on the app. The collection's name appears in front of the logo when the user hovers over it.
+ 				<br><br> 
+				<b>FRAME3</b><br>
+				The User has accesssed a specific collection. This page will list all the T-Shirts under a specific collection.
+				<br><br> 
+				<b>FRAME4</b><br>
+				Every single T-Shirt listing has the image of the design front and center with the name of the shirt under the image followed by the brand that owns the design. Right next to the image is an icon that gets highlighted if a user clicks on it. The top left shows how many user have 'liked' or 'saved' the icon. If the user chooses to buy the product by clicking on 'Buy It', then will get redirected to an external site of the brand where they can make the purchase. If a user wants further details on the product, then can click on 'Details' which will take them to the next frame.<br><br>
+				<b>FRAME5</b><br>
+				The T-Shirt details include the name as well as the brand behind the T-Shirt and a very brief description about the design. The user can share the design on Facebook, Twitter, Pinterest or G+ as shown by the icons or they can 'Save' the design to their own personal catalog. Clicking on 'More Info' will take them to the same link that the 'Save' button from the previous page.
+			</p>
+				<div class='cem-web-image'>
+				<%= image_tag('wmt/HiFi/wmtx.png') %><br>
+			</div>
+			<p class="dev-project-description">
+				<b>FRAME1</b><br>
+				Once a user signs into an account, the Login and Sign Up buttons will be replaced with an 'Account' dropdown button from which a user can access their 'Profile', 'Account Settings' or Log Out of their account.
+				<br><br> 
+				<b>FRAME2</b><br>
+				Once a user clicks on 'My Profile', they are redirected to their profile page which they create once they sign up for the service. The profile page's layout is very similar to a brand's profile page. Under the user details, there are two button, 'MY BRANDS' which lists all the brands that the user has chosen to follow and 'MY TEES', which lists all the T-Shirts that the user has saved.<br><br>
+				<b>FRAME3</b><br>
+				Clicking on 'MY TEES' shows a list of all T-Shirts that a user has saved. The listing layout is identical to what is seen on the landing page. Clicking on a T-Shirt opens a new page with hthe product details.<br><br>
+				<b>FRAME4</b><br>
+				Clicking on 'MY BRANDS' shows a list of businesses that the user has chosen to follow. Clicking on a brand will take then to the brand's profile.
+			</p>
+
+</body>
 

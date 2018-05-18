@@ -16,7 +16,150 @@
 	font-size: 15px;
 }
 
-/** Product **/
+
+/** Web Development Projects **/
+
+.aquamyst-landing
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.aquamyst-landing > img
+{
+	width: 55%;
+	float: left;
+}
+
+.aquamyst-landing > p
+{
+	width: 40%;
+	float: left;
+}
+
+.chapter
+{
+	text-align:center; 
+	font-family: 'BebasNeueRegular', sans-serif;
+	color: #0062C2;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+.cem-web-image > img
+{
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	//text-align: center;
+}
+
+.cem-listing-row
+{
+	display: table;
+}
+
+.cem-listing > img
+{
+	//display: inline-block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	//text-align: center;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.cem-ad-row
+{
+	display: table;
+}
+
+.cem-ad > img
+{
+	//display: inline-block;
+	width: 45%;
+	margin-left: 50px;
+	//margin-right: 15px;
+	//text-align: center;
+	float: left;
+	//margin-bottom: 25px;
+}
+
+.dev-project-description-label
+{
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 40px;
+	margin-top: 50px;
+	text-align: center;
+	color: #252B34;
+	font-weight: bold;
+}
+
+.dev-project-description
+{
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	//margin-bottom: 50px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 50%;
+
+}
+
+.dev-project-description-sidetext
+{
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	//margin-bottom: 50px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 50%;
+	text-align: left;
+
+}
+
+.dev-project-roles
+{
+	text-align: center;
+}
+.dev-role
+{
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'BebasNeueRegular', sans-serif;
+	border: 1px solid #000;
+	border-radius: 15px;
+	padding: 15px;
+	color: #0062C2;
+}
+
+.highlights
+{
+	color: #00BEDA;
+	font-size: 30px;
+	font-family: 'Raleway-Light', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 60%;
+}
+
+.image-notes
+{
+	font-style: italic; 
+	font-size: 13px!important; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align:center;
+	width: 70%;
+	font-style: 'Lato-Light', sans-serif;
+}
 
 .product-history-label
 {
@@ -121,6 +264,23 @@
 	margin-bottom: 50px;
 }
 
+.wmt-listing-row
+{
+	//display: table;
+	text-align: center;
+}
+
+.wmt-listing > img
+{
+	display: inline-block;
+	width: 20%;
+	//margin-left: auto;
+	//margin-right: auto;
+	//text-align: center;
+	//float: left;
+	//text-align: center;
+	margin-right: 25px;
+}
 .wireframe-title
 {
 	font-family: 'Raleway-Medium', sans-serif;
