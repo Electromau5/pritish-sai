@@ -6,6 +6,9 @@ class ProjectsController < ApplicationController
   def coastercrunch
   end
 
+  def inteum
+  end  
+
   def felixcalis
   end
 
