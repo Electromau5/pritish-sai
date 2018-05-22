@@ -1,55 +1,241 @@
 <div class="container" style="margin-top: 25px">
-	<h3 class="project-name-label">Project Name : </h3>
-	<h3 class="project-name">CoasterCrunch</h3><br><br>
-	<h3 class="project-site-label">HiFi Prototype : </h3>
-	<h3 class="project-site"><%= link_to 'CoasterCrunch', 'https://marvelapp.com/28idh73', target: '_blank' %></h3>
-	<h3 class="project-description-label">Description : </h3>
-		<p class="project-description">
-			CoasterCrunch is an app that was brainstormed at RIT. The main objective of the application is to create a less stressful theme park experience by utilising special passes in a digitized form, information on rides so theme park visitors can plan their trips accordingly, the option to create groups and meetups with friends and family at the theme park and an AR experience that includes an in-built gaming module which can be used to fight boredom during long lines as well as redeem points for prizes.
+	<h3 class="main-title">PROJECT NAME: <p style="font-family: 'Raleway-Regular', sans-serif; color: #4273F7">CoasterCrunch</h3>
+	<p class="highlights">"How do we make theme park visits less stressful?"</p>
+	<div class="coaster-process" >
+			<%= image_tag('coaster/process.png') %>
+	</div><br>
+	<div class="jumbotron">
+		<h3 class="process-title">BRAINSTORM</h3>
+		<h4 class="process-subtitle">"Its sometimes not the happiest place on earth"</h4>
+		<p class="process-description">
+			This project was part of our Information and Interaction Design class. We were assigned to teams of four. When my team met for the very first time, we brainstormed a number of ideas that we could work on for our semester-long process. I suggested that we look at a 'problem' that a specific group of users face. We had several ideas thrown around during our first brainstorming session. The one we settled on was based on an issue that each team member had individually faced and was known as a recurring problem. This lead to the question, 'How do we make theme park visits less stressful?'
 		</p>
-		<h2 class="analytics"style="text-align:center">AFFINITY DIAGRAM</h2>
-			<div class = "col-md-12 col-sm-12 col-lg-12">
-				<p style="font-family: 'Raleway-Regular',sans-serif; font-size: 15px">
-					This was the second version of the Affinity Diagram. Our first iteration was constructed based on the questions that we asked potential stakeholders. However based on the feedback we acquired, we reorganized all the information and categorized them based on the responses of the stakeholders. The three layers of post-it notes are based on key information that our stakeholders gave us that influenced their experience at a theme park including key demographic data, how they utilise their time there, how they perceive certain setbacks include long wait times and the group of people who they normally come with to the theme park to name a few.
-				</p>
-			</div>
-			<div class = "col-md-12 col-sm-12 col-lg-12">
-				<img class="zoom" src='/images/affinity.png' data-zoom-image="/images/affinity-zoom.jpg" /><br><br><br>
-			</div>
-
-		<h2 class="analytics"style="text-align:center">PERSONAS</h2>
+		<h4 class="process-subtitle">BACKGROUND</h4>
+		<p class="process-description">
+			A theme park will always be seen as a place where parents take their children during vacations and/or where friends get together for a day of fun. The marketing material for any theme park always shows happy and content visitors having a great time. 
+		</p>
+		<p class="process-description">
+			The reality is that despite the hours of fun, theme parks are also
+			<ol class="process-description">
+				<li>Places that test the patience of a visitor with excruciating wait times through lines that seem endless.</li>
+				<li>Places that can be unsafe for children unless they're under the constant watch of their parents.</li>
+				<li>Places where sometimes individual members of a group want to do different things.</li>
+			</ol>
+		</p>
+		<h4 class="process-subtitle">OBJECTIVES</h4>
+		<p class="process-description">
+			We had four objectives and we divided them into four aspects of our application
+				<ol class="process-description">
+					<li>Give visitors a chance to buy day or season passes that allowed them to avoid the long wait times. We wanted to digitize 'Flash Passes' - Passes that allow visitors to take special lines with marginally less crowds. Flash Passes are acquired by accumulating points from frequenting rides. The more a visitor frequents a theme park, the higher number of points they could accumulate.</li>
+					<li>Publish ample amount of information about each specific ride including wait times. This would allow visitors to plan which rides they would like to go to during their visit.</li>
+					<li>Allow groups to create meetups at the theme park while knowing where each member was. This allowed each member to do what they individually desired while setting up times to regroup.</li>
+					<li>Reduce boredom during long wait times for visitors with added incentives. We ultimately decided to achieve this objective with a built-in AR game that was exclusive to each theme park.</li>
+				</ol>
+		</p>
+		<h4 class="process-subtitle">MY ROLE</h4>
+		<p class="process-description">
+			I was part of a team of four. Two of us (including me) had work experience prior to enrolling at RIT. The other two were students who had enrolled at RIT right after completing their undergraduate studies. It was an extremely interesting dynamic. The brainstorming sessions and contextual inquiries and design required each member to do identical tasks. However, when it came to setting up personas, the LoFi and HiFi prototype, each team member's deliverables and strategies were different.
+		</p>
+	</div>
+	<div class="jumbotron">
+		<h3 class="process-title">CONTEXTUAL INQUIRY</h3>
+		<p class="process-description">
+			Before we started working on the Affinity Diagram we created a set of questions for our contextual survey. These questions were based on the individual's previous experience as well as their perceptions about the overall theme park experience taking both positive and negative aspects into deep consideration.
+		</p>
+		<h4 class="highlights">"We wanted to understand the common perception of the overall Theme Park experience"</h4>
+		<p class="process-description">
+			Our process of conducting the interviews involved certain conventional principles combined with our own implementation strategies. We had a very basic, but an important idea about the type of user we wanted to interview and subsequently, who would help us formulate the personas we were going to generate.
+		</p>
+		<div class="interview">
+				<%= image_tag('coaster/interview.png') %><br>
+		</div>
+		<p class="process-description">
+			We had a set of questions that put participants in hypothetical situations 
+			<ol class="process-description">
+				<li>"Would you look for popular rides with long lines or less popular rides with marginally less waiting times?"</li>
+				<li>"What creates a great or poor theme park experience?" followed by a list of options that ranged from the people at a theme park to the merchandise.</li>
+				<li>"What is the most effective way to stay occupied while waiting in a line" followed by several options including using a smartphone and talking to the people in the line.</li>
+			</ol>
+		</p>
+	</div>
+	<div class="jumbotron">
+		<h3 class="process-title">THE AFFINITY DIAGRAM<b style="color:red">S?</b></h3>
+		<p class="process-description">
+			We had created two Affinity Diagrams. This was not our initial plan, but after we got feedback from the professor who had assigned the teams, we had to radically change the diagram.
+		</p>
+		<h4 class="process-subtitle">FIRST AFFINITY DIAGRAM</h4>
+		<p class="process-description">
+			The first one was based on categorizing the questions that were asked in the interview. The headings that we assigned to each category were very general. For example, the top section of the affinity diagram was broken down into three categories
+				<ol class="process-description">
+					<li><b style="color: #70C0C9">EXPECTATION</b> based on what the potential visitors hoped for when they visited a theme park.</li>
+					<li><b style="color: #D8438A">REALITY</b> which was what they really faced during their theme park visits</li>
+					<li><b style="color: #D3D675">SOLUTION</b> based on their responses to suggestions on how to improve the theme park experience.</li>
+				</ol>
+		</p>
+		<p class="process-description">
+			The middle and bottom layers of the Affinity Diagram were broken down into the demographics of the participant, the level of planning that regularly goes into their theme park visits, how they spend their time and money at the theme park, their perceptions on ride wait times, and what kind of solutions would they find useful to make their visits less stressful (especially the wait times)
+		</p>
+		<h4 class="highlights">"Categorizing questions did not play well into a contextual inquiry"</h4>
+		<p class="process-description">
+			This Affinity Diagram, however, was seen as too categorial by our professor who was in charge of the course for the project.He had difficult picturing our interpretation session and felt that categorizing questions did not play well into a contextual inquiry. Using his feedback as a guideline we decided to create a new affinity diagram. 
+		</p>
+		<div class="affinity">
+				<%= image_tag('coaster/affinity1.jpg') %><br>
+		</div>
+		<h4 class="process-subtitle">SECOND AFFINITY DIAGRAM</h4>
+			<p class="process-description">
+				The second affinity diagram was based on the responses of the participants in the survey. We avoided categorizing the Post-It notes and used the individual responses as the primary text for all three layers.
+			</p>
+			<h4 class="highlights">"Every single post-it represents what a participant said in their interview"</h4>
+			<p class="process-description">
+				We broke down all 3 layers in a very similar way to the first affinity diagram, but instead of using our questions to categorize questions, we used the responses of the participants exclusively. Every single post-it represents what a participant said in their interview.
+			</p>
+		<div class="affinity">
+				<%= image_tag('coaster/affinity2.png') %><br>
+		</div>
+	</div>
+	<div class="jumbotron">
+		<h3 class="process-title">THE FIVE PERSONAS</h3>
+		<p class="process-description">
+			Once we got the approval of our new Affinity Diagram, it was time to create individual personas based on the responses from the contextual inquiry. Each team member was tasked with creating one persona. In total, we were able to create 4 personas and one anti-persona.
+		</p>
+		<p class="process-description">
+			We broke down the individual information for each persona based on the following criteria. 
+			<ol class="process-description">
+				<li>BASIC DEMOGRAPHICS</li>
+				<li>GOALS of the individual at the theme park</li>
+				<li>FRUSTRATIONS that come with theme park visits</li>
+				<li>TECH LITERACY especially with that of a smartphone</li>
+				<li>ROLES in theme park visits</li>
+				<li>ATTITUDES towards theme parks</li>
+			</ol>
+		</p>
+		<p class="process-description">
+			The five personas based on the aforementioned factors that we were able to generate were
 			<div class="flexslider">
     			<ul class="slides">
-    		  		<li class="project-image1"><%= image_tag('/images/persona1.png') %>
+    		  		<li class="project-image1"><%= image_tag('coaster/persona1.png') %>
     		  			<p class="flex-caption">The primary persona is the parent who goes to a theme park with 3 or more children. Major sources of stress for this stakeholder would be managing multiple demanding children during a theme park visit as well the overall expense. CoasterCrunch aims to reduce these stress factors.</p>
     		  		</li>
-    		  		<li class="project-image2"><%= image_tag('/images/persona2.png') %>
+    		  		<li class="project-image2"><%= image_tag('coaster/persona2.png') %>
     		  			<p class="flex-caption">The second persona is the millennial who goes to a theme park with friends and family. Long wait times and a limited budget limit the amount of fun a millennial will have at a theme park.</p>
     		  		</li>
-		      		<li class="project-image3"><%= image_tag('/images/persona3.png') %>
+		      		<li class="project-image3"><%= image_tag('coaster/persona3.png') %>
 		      			<p class="flex-caption">The third persona is the child who is under the care of a parent and the goal of the child is the most predictable i.e. they're looking to have as much fun as possible. The AR component of the app plays to this requirement.</p>
 		      		</li>
-		      		<li class="project-image2"><%= image_tag('/images/persona4.png') %>
+		      		<li class="project-image2"><%= image_tag('coaster/persona4.png') %>
     		  			<p class="flex-caption">The fourth persona is a ride operator who works at the theme park. The ride operator is a first hand witness to the frustrations of the other key stakeholders and wishes there was a solution. </p>
     		  		</li>
-		      		<li class="project-image3"><%= image_tag('/images/persona5.png') %>
-		      			<p class="flex-caption">The fifth which is an anti-persona is the parent that is family-oriented and sees the app as a device that will not add any value to the theme park experience.</p>
+		      		<li class="project-image3"><%= image_tag('coaster/persona5.png') %>
+		      			<p class="flex-caption">The fifth which is an anti-persona is the parent that is family-oriented and does not really enjoy theme parks.</p>
 		      		</li>
     			</ul>
   			</div>
-		<h2 class="analytics"style="text-align:center">LOFI PROTOTYPE</h2>
-			<h3 style="font-family:'Raleway-Regular', sans-serif; font-size: 20px">FOUR CORE FEATURES OF THE APP</h3>
-				<ol>
-					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">TICKETS - Stakeholders can gain access to a Day or Season pass to a specific theme park. This portion of the app has a standard checkout feature for stakeholders to purchase passes.</li>
-					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">RIDES - Potential stakeholders can gain information about rides including ride times and wait times.</li>
-					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">MAPS - This part of the app will allow stakeholders to create a group that will help keep track of each other while at the park as well initiate meeting points in the event that one or more of them lose their way.</li>
-					<li style="font-family:'Raleway-Regular', sans-serif; font-size: 17px">MY EXPERIENCE - 'My Experience' is a feature that combines AR and gaming to create an experience that engages stakeholders to hunt for virtual objects in a real world environment (we used Harry Potter as an example) and redeem points for all items found. The AR component also includes pre-rendered animations for specific locations that stakeholders can use to keep themselves engaged while waiting in lines.</li><br>
-				</ol>
-		<div class = "col-md-12">
-			<img class="zoom" src='/images/lofi.png' data-zoom-image="/images/lofi-zoom.png"/><br><br><br>
-		</div>
-		<h2 class="analytics"style="text-align:center">HIFI PROTOTYPE - "MY EXPERIENCE" FEATURE</h2>
-  			<div class="prototype">
-				<%= image_tag('/images/hifi.png') %>
-  			</div><br><br>
- </div>	
+		</p>
+	</div>
+	<div class="jumbotron">
+		<h3 class="process-title">THE PROTOTYPING PROCESS</h3>
+			<h4 class="process-subtitle">Low-Fidelity Prototype</h4>
+			<p class="process-description">
+				Our Low-Fidelity Prototype was created with paper. We decided to go with paper because the process was much faster than creating a digital version. It also gave us the independence to initiate instantaneous changes without losing too much time. The Low-Fidelity Prototype was a joint session, one where each team member was working on one of the four primary sections of the application. In addition to regular paper, we also decided to use small pieces of colored paper with information on what are the outcomes of pressing individual buttons were. For example, the 'Buy Now' button which was part of the eCommerce section of the app added items to the user's cart (as specified by the small colored paper).
+			</p>
+			<p class="process-description">
+				We also used colored paper to signify drop-down menus (yellow) and pop-up notifications (pink). We wanted to bring out the interactivity of the application with the colored papers, but also we wanted to have the option to interchange specific parts of the app using the colored paper. For example, if we felt that the dropdown would be better suited for another part of the application, we could easily move it there.
+			<div class="lofi prototype">
+				<%= image_tag('coaster/lofi.jpg') %><br>
+				<p class="image-tagline">
+					The frame at the extreme left is the homepage of the application. Users can essentially navigate to each of the four sections (represented by each row) from the homepage. As specified above, the yellow paper indicates dropdowns while the pink indicates pop-up notifactions. 
+				</p>
+				<%= image_tag('coaster/ar.jpg') %><br>
+				<p class="image-tagline">
+					My specific role in the lo-fi prototype was to design the AR component of the application which I named 'My Experiece'. The design showed how a user can use the AR feature for photo filters, gaming, and animations.
+				</p>
+			</div>
+			<p class="process-description">
+				My specific role in the prototyping process was designing the 'My Experience' part of the app which included the built-in AR game. I chose to design a Harry Potter themed AR game and a system that allowed users of the game to redeem points for incentives at the theme park. The goal was to encourage visitors to play the game more often for both the incentives and reducing the monotony of long lines.
+			</p>
+			<h4 class="process-subtitle">Hi-Fidelity Prototype</h4>
+			<p style="text-align:center">
+				The complete High-Fidelity Prototype can be viewed <%= link_to 'here', 'https://marvelapp.com/28idh73', target: '_blank' %>
+			</p>
+			<p class="process-description">
+				The Hi-Fidelity Prototype was essentially the final version of the app that we wanted to bring to market. We designed the final version using a number of tools including Photoshop, and Sketch.
+			</p>
+			<p class="process-description">
+				Once the designs were complete, we uploaded all the designs into Marvel which gave us the opportunity to show how a specific user interaction lead the user to transition across all pages of the application.
+			</p>
+			<div class="hifi">
+				<h5>'MY EXPERIENCE' (The feature that I worked on)</h5>
+				<%= image_tag('coaster/homepage.png') %><br>
+				<div class="secondary-images-hifi">
+					<%= image_tag('coaster/frames1-3.png') %>
+					<%= image_tag('coaster/frames4-6.png') %>
+				</div>
+			</div>
+			<p class="process-description">
+				<ul class="process-description">
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 1</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								A photo filter option that was influenced by Snapchat filters. This tied into our AR component. Our initial idea was to use standard emojis that morphed well with images of our users. We planned to create original emojis that would tie into the theme park (very similar to Snapchat's location filters). However, due to time constraints we decided to use existing emoji designs.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 2</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								An AR animation feature that was location based. If a user was in a specific part of the theme park, the app would notify them of custom AR animations that they could play with. The animations would come pre-built into the app and would be customized to each digital asset.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 3</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								A feature that allowed users to redeem points at local businesses at the park. These points could be used for discounts on food, shopping, tickets, and entertainment at the park. The app also gave information on the level of discounts specific points would get them.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 3(a)</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								An AR game that required the user to search and capture digital elements. This was inspired by Pokemon Go. Every capture would generate points for the user which they could redeem for incentives at the park.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 4</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								A photo filter option that was influenced by Snapchat filters. This tied into our AR component. Our initial idea was to use standard emojis that morphed well with images of our users. We planned to create original emojis that would tie into the theme park (very similar to Snapchat's location filters). However, due to time constraints we decided to use existing emoji designs.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-lg-3">
+							<b style="color: #EB504A; font-size: 20px">FIGURE 5</b>
+						</div>
+						<div class="col-md-9 col-lg-9">
+							<p class="process-description" style="width: 150%">
+								Finally, I also designed a gallery section where the user could view, share, and/or delete images with the custom filters from the app.
+							</p>
+						</div>
+					</div>
+
+				</ul>
+			</p>
+	</div>
+

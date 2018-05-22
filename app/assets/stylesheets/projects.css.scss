@@ -16,6 +16,128 @@
 	font-size: 15px;
 }
 
+/** CoasterCrunch **/
+
+.main-title
+{
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 50px;
+	//margin-top: 50px;
+	text-align: center;
+	color: #000;
+	font-weight: bold;
+}
+
+.image-tagline
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 15px!important;
+	font-weight: none;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.image-tagline > p
+{
+	font-size: 10px;
+	font-weight: none;
+}
+
+.affinity > img
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.interview > img
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.lofi > img
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.hifi > img
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.secondary-images-hifi > img
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.hifi > h5
+{
+	text-align: center;
+	font-size: 25px;
+}
+.coaster-process > img
+{
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col
+{
+	text-align: center;
+}
+
+.col-header
+{
+	text-align: center;
+}
+
+.process-description
+{
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 50%;
+}
+
+.process-subtitle
+{
+	font-family: 'Raleway-Light', sans-serif;
+	font-size: 30px;
+	//margin-top: 50px;
+	text-align: center;
+	color: #00B4FA;
+	font-weight: bold;
+}
+
+.process-title
+{
+	font-family: 'BebasNeueRegular', sans-serif;
+	font-size: 40px;
+	//margin-top: 50px;
+	text-align: center;
+	color: #4273F7;
+	font-weight: bold;
+}
+
+
 
 /** Web Development Projects **/
 
