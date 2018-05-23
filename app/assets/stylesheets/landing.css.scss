@@ -1,46 +1,63 @@
-.name
+/** About **/
+.pritish-sai
 {
 	font-family: 'Raleway-Bold', sans-serif;
+	//text-align: center;
+	font-size: 35px;
 }
 
 .designation 
 {
-	font-family: 'Raleway-ExtraLight', sans-serif;
+	font-family: 'Raleway-Light', sans-serif;
+	//text-align: center;
+	font-size: 25px;
 }
 
-.banner
+.about-me
 {
-  height: 400px;
-  background-image: url(banner/banner.jpeg);
-  background-position: 0% 55%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  margin-bottom: 30px;
-  margin-top: -19px;
+	font-family: 'Raleway-Light', sans-serif;
+	font-size: 25px;
+	color: #009ecc;
+	width: 50%;
 }
 
-.banner-b1
+.opening-text
 {
-	background-color: #222222;
-	width: 100%;
-	//margin-left: 10%;
-	opacity: 0.6;
-	height: 100px;
-	margin-top: 120px;
-	opacity: 0.7;
+	margin-top: 50px;
+	margin-left: 40px;
 }
 
-
-.banner-text
+.skills img
 {
-	text-align:center; 
-	color: #fff;  
-	font-family: 'Raleway-Light', sans-serif; 
-	font-size: 30px;
-	margin-top: -65px;
-	opacity: 0.6;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#myNavbar
+{
+	text-align: center;
+}
+
+.project-title
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.project-details 
+{
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 15px;
+	//ont-weight: bold;
+}
+
+.project-tools
+{
+	font-size: 15px;
+	font-weight: bold;	
+	color: #305A94;
 }
 
 .resume > a > img
@@ -54,24 +71,24 @@
 	font-size: 35px;
 }
 
-.header-1 > a
+.header-1  a:hover
 {
-	text-decoration: none;
-	background-position: 0 0;
-    transition: background-position 0.3s;
-    background-size: 200% auto;
-    margin-right: 5px;
+  background-color: #fff!important;
 }
 
-.header-1 > a:hover
+.header-1  a:active
 {
-   background-position:  99.99% 0;
-   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
-   background-image: -webkit-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
-   background-image: -moz-linear-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
-   background-image: -o-linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #000 50%);
-   color: #fff!important;
-   font-family: 'Raleway-Light', sans-serif;
+  background-color: #fff!important;
+}
+
+.header-1
+{
+	margin-left: 20px;
+}
+.header-1  img
+{
+	width: 70%;
+	//margin-right: -15px;
 }
 
 .jumbotron p
@@ -81,8 +98,22 @@
 
 .navbar-brand
 {
-	color: #000;
-	font-family: 'Raleway-Light', sans-serif;
+	color: #366a91!important;
+	font-family: 'Raleway-Regular', sans-serif;
+	margin-right: -30px;
+	margin-top: -15px;
+	background-color: #fff;
+}
+
+.nabvar-brand:hover
+{
+	background-color: #fff!important;
+}
+
+.nav-header a:hover
+{
+	background-color: #fff;
+	font-weight: bold;
 }
 
 .navbar-toggle .icon-bar
@@ -141,4 +172,10 @@
 {
 	text-decoration: none;
 	color: #000;
+}
+
+.social img
+{
+	width: 5%;
+	margin-right: 50px;
 }
