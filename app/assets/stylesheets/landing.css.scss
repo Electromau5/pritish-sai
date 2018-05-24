@@ -1,5 +1,15 @@
 /** Navbar **/
 
+.master-container
+{
+	height: 500px;
+	background-image: url(banner/whiteboard.jpg);
+	background-position: 0% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+}
+
 #myNavbar
 {
 	text-align: center;
@@ -13,14 +23,18 @@
 
 .header-1  a:hover
 {
-  background-color: #fff!important;
+  background-color: transparent!important;
 }
 
 .header-1  a:active
 {
-  background-color: #fff!important;
+  background-color: transparent!important;
 }
 
+.navbar-nav > li > a
+{
+	background-color: transparent!important;
+}
 .header-1
 {
 	margin-left: 20px;
@@ -28,6 +42,7 @@
 .header-1  img
 {
 	width: 70%;
+	margin-top: 30px;
 	//margin-right: -15px;
 }
 
@@ -70,7 +85,7 @@
 
 .skychaser-logo > a:hover
 {
-	text-decoration: none;
+	text-decoration: transparent;
 	color: #000;
 }
 .post1 img
@@ -104,6 +119,7 @@
 			//opacity: 1; 
 		}
 }
+
  @-webkit-keyframes post 
      { 
 	from {	
@@ -116,7 +132,6 @@
 		}
 }
 
-
 /** About **/
 
 .pritish-sai
@@ -124,6 +139,9 @@
 	font-family: 'Raleway-Bold', sans-serif;
 	//text-align: center;
 	font-size: 35px;
+	animation: nombre 4s;
+    -webkit-animation: nombre 4s;
+    //transform: rotateZ(90deg);
 }
 
 .designation 
@@ -131,6 +149,8 @@
 	font-family: 'Raleway-Light', sans-serif;
 	//text-align: center;
 	font-size: 25px;
+	animation: nombre 3s;
+    -webkit-animation: nombre 3s;
 }
 
 .about-me
@@ -139,6 +159,18 @@
 	font-size: 25px;
 	color: #009ecc;
 	width: 50%;
+}
+
+@keyframes nombre
+     { 
+	from {	
+			transform: rotateZ(90deg)
+			//opacity: 0;	
+		 }
+	to 	{	
+			transform: rotateZ(0deg)
+			//opacity: 1; 
+		}
 }
 
 .opening-text
