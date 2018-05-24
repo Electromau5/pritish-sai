@@ -1,68 +1,8 @@
-/** About **/
-.pritish-sai
-{
-	font-family: 'Raleway-Bold', sans-serif;
-	//text-align: center;
-	font-size: 35px;
-}
-
-.designation 
-{
-	font-family: 'Raleway-Light', sans-serif;
-	//text-align: center;
-	font-size: 25px;
-}
-
-.about-me
-{
-	font-family: 'Raleway-Light', sans-serif;
-	font-size: 25px;
-	color: #009ecc;
-	width: 50%;
-}
-
-.opening-text
-{
-	margin-top: 50px;
-	margin-left: 40px;
-}
-
-.skills img
-{
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
+/** Navbar **/
 
 #myNavbar
 {
 	text-align: center;
-}
-
-.project-title
-{
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.project-details 
-{
-	font-family: 'Roboto-Light', sans-serif;
-	font-size: 15px;
-	//ont-weight: bold;
-}
-
-.project-tools
-{
-	font-size: 15px;
-	font-weight: bold;	
-	color: #305A94;
-}
-
-.resume > a > img
-{
- 	width: 20%;
 }
 
 .h2-text
@@ -121,6 +61,140 @@
 	background-color: #000;
 }
 
+.skychaser-logo > a
+{
+	//font-family: 'Lato-Light', sans-serif;
+	font-size: 30px;
+	color: #000;
+}
+
+.skychaser-logo > a:hover
+{
+	text-decoration: none;
+	color: #000;
+}
+.post1 img
+{
+	animation: post 2s;
+    -webkit-animation: post 2s;
+}
+.post2 img
+{
+	animation: post 3s;
+    -webkit-animation: post 3s;
+}
+.post3 img
+{
+	animation: post 4s;
+    -webkit-animation: post 4s;
+}
+.post4 img
+{
+	animation: post 5s;
+    -webkit-animation: post 5s;
+}
+   @keyframes post 
+     { 
+	from {	
+			transform: scale(0.0)
+			//opacity: 0;	
+		 }
+	to 	{	
+			transform: scale(1.0)
+			//opacity: 1; 
+		}
+}
+ @-webkit-keyframes post 
+     { 
+	from {	
+			//margin-top: 90px;	
+			opacity: 0;	
+		 }
+	to 	{	
+			//margin-bottom: 65px;	
+			opacity: 1; 
+		}
+}
+
+
+/** About **/
+
+.pritish-sai
+{
+	font-family: 'Raleway-Bold', sans-serif;
+	//text-align: center;
+	font-size: 35px;
+}
+
+.designation 
+{
+	font-family: 'Raleway-Light', sans-serif;
+	//text-align: center;
+	font-size: 25px;
+}
+
+.about-me
+{
+	font-family: 'Raleway-Light', sans-serif;
+	font-size: 25px;
+	color: #009ecc;
+	width: 50%;
+}
+
+.opening-text
+{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+
+/** Skills **/
+
+.skills img
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/** Portfolio **/
+
+.project-title
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.project-details 
+{
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 15px;
+	//ont-weight: bold;
+}
+
+.project-tools
+{
+	font-size: 15px;
+	font-weight: bold;	
+	color: #305A94;
+}
+
+.portfolio-container
+{
+	width: 90%;
+	margin-left: 7%;
+	margin-right: 5%;
+}
+
+/** Resume **/
+
+.resume > a > img
+{
+ 	width: 20%;
+}
+
+
 .personal > img
 {
 	width: 65%;
@@ -136,13 +210,6 @@
 	height: 85%;
 	margin-top: -20px;
 	margin-left: 20px;
-}
-
-.portfolio-container
-{
-	width: 90%;
-	margin-left: 7%;
-	margin-right: 5%;
 }
 
 #profile
@@ -161,18 +228,7 @@
 	margin-top: 20px;
 }
 
-.skychaser-logo > a
-{
-	//font-family: 'Lato-Light', sans-serif;
-	font-size: 30px;
-	color: #000;
-}
-
-.skychaser-logo > a:hover
-{
-	text-decoration: none;
-	color: #000;
-}
+/** Contact **/
 
 .social img
 {
