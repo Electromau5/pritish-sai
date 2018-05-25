@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+  			<title>Pritish Sai - Product Designer</title>
+  			<meta charset="utf-8">
+  			<meta name="viewport" content="width=device-width, initial-scale=1">
+  			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<nav class="navbar" style="border: 1px solid #000">
+	  			<div class="container-fluid">
+	    			<div class="navbar-header">
+	      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>                        
+	      				</button>
+	      				<div class="skychaser-logo" id="skychaser-logo"><%= link_to 'PRITISH SAI   ', root_path, class: 'name' %><%= link_to ' PRODUCT DESIGNER', root_path, class: 'designation' %></div>
+	    			</div>
+	    			<div class="collapse navbar-collapse" id="myNavbar">
+	      				<ul class="nav navbar-nav navbar-right">
+					        <li class="header-1"><%= link_to 'About Me', "#about", class: "navbar-brand" %></li>
+					        <li class="header-1"><%= link_to 'Portfolio', '#portfolio', class: "navbar-brand" %></li>
+					        <li class="header-1"><%= link_to 'Resume', 'https://bit.ly/2rY9UGD', class: "navbar-brand", target: '_blank' %></li>
+					        <li class="header-1"><%= link_to 'Contact', '#contact', class: "navbar-brand" %></li>
+	      				</ul>
+	    		   </div>
+	  			</div>
+			</nav>
+			<div class="banner">
+        		<div>
+            		<div class="banner-b1"></div>
+            		<h1 class="banner-text">"Good Artists Copy. Great Artists Revolutionize"</h1>
+        		</div>
+			</div>
+    		<h2 id="about" class="landing-sub-header" style="text-align:center; font-family: 'Raleway-Medium', sans-serif">WHO AM I</h2>
+    			<div class="container">
+        			<div class="jumbotron" style="border: 1px solid #000; background-color: #fff">
+						<div class="row">
+                			<div class="col-md-4 col-sm-6 col-xs-12 col-lg-4">
+                    			<div class="personal">
+                        			<%= image_tag('personal/idea.jpeg') %>
+                    			</div>
+                			</div>
+                			<div class="col-md-8 col-sm-6 col-xs-12 col-lg-8">
+ 		                   			<p class="p-text">I look at myself as an amalgam of a designer, developer and marketer. I love to design, code and connect with my end users. Technical problem solving and creative thinking are integral to my existence. The primary driving force in my life is a need to disrupt existing systems that have major usability issues and create products that can connect with the end user through the simplicity of their use and potential for monetisation. Having a background in design, business and technology, I utilise a more entrepreneurial mindset. I look at every project as a startup that's going to change an industry and that's why I'm currently doing a graduate degree in Human-Computer Interaction because I want to become a successful UX Designer. 
+									</p>
+							</div>
+            		</div>
+        		</div>
+        	</div>
+        	<h2  id="portfolio" style="text-align:center; font-family: 'Raleway-Medium', sans-serif">PORTFOLIO</h2>
+        	<div class="portfolio-container">
+				<div class="container">
+					<h3 style="font-family:'Raleway-Light', sans-serif">DESIGN AND DEVELOPMENT</h3><br>
+						<div class="row">
+							<div class="col-md-4 col-xs-12 project-parent">
+   								<div class="project-child bg-one">
+      								<span>
+      									<%= link_to "Startup",'http://www.pritishsai.com/projects/wheresmytee', target: "_blank" %>
+      								</span>
+   								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-two">
+									<span>
+										<%= link_to "Portfolio Site", 'http://www.pritishsai.com/projects/felixcalis', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-three">
+									<span>
+										<%= link_to "Portfolio Site", 'http://www.pritishsai.com/projects/vaibhavgupta', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-four">
+									<span>
+										<%= link_to "Portfolio Site", 'http://www.pritishsai.com/projects/crkannan', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+						</div><br>
+						<h3 style="font-family:'Raleway-Light', sans-serif">INTERACTION DESIGN</h3><br>
+						<div class="row">
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-five">
+									<span>
+										<%= link_to "Prototyping", 'http://www.pritishsai.com/projects/coastercrunch', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-six">
+									<span>
+										<%= link_to "Sketches", 'http://www.pritishsai.com/projects/sketches', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+						</div><br>
+						<h3 style="font-family:'Raleway-Light', sans-serif">RESEARCH PAPERS</h3><br>
+						<div class="row">
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-seven">
+									<span>
+										<%= link_to 'Business Analysis', 'https://drive.google.com/file/d/1jivXLi4EaoUUMTTZczy_XG1hGYPRol8S/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-eight">
+									<span>
+										<%= link_to 'Government and Policy Analysis', 'https://drive.google.com/file/d/1DCovMTENe1_YRRETnFSJw2obh7bzsFgR/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-nine">
+									<span>
+										<%= link_to 'Regression Report', 'https://drive.google.com/file/d/1_mG516V8EF6COQyLELKeTYnwEYhBV4Yo/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-ten">
+									<span>
+										<%= link_to 'Data Discovery Report', 'https://drive.google.com/file/d/1QuXm6ljtFizO0asdkg1MwxCeDXGH5oJY/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-eleven">
+									<span>
+										<%= link_to 'Multiple Regression Project', 'https://drive.google.com/file/d/1bRJ4VPdBgsv4xYtjYlMDuGGw-SIIyWj2/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+							<div class="col-md-4 col-xs-12 project-parent">
+								<div class="project-child bg-twelve">
+									<span>
+										<%= link_to 'Qualitative Survey Report', 'https://drive.google.com/file/d/1GyDvU_iXpEGgzAGiOgrWLtmva_nVZxlc/view?usp=sharing', target: "_blank" %>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<h2 id="contact" class="landing-sub-header" style="text-align:center; font-family: 'Raleway-Medium', sans-serif; margin-top: 50px">CONTACT</h2>
+		<div class="container" style="width: 50%">
+			<div class="jumbotron" style="border: 1px solid #000">
+				<div style="text-align: center">
+					<h3 style="font-family: 'Raleway-Regular', sans-serif">Phone: (646)-255-9521</h3>
+					<h3 style="font-family: 'Raleway-Regular', sans-serif">Email: pritish.sai@gmail.com</h3>
+				</div>
+		   	</div>
+		</div>
+</body>
+	</html>
