@@ -183,7 +183,7 @@ DEPENDENCIES
   flexslider!
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (~> 0.20)
   rails (= 4.2.5.2)
   rails_12factor
   sass-rails (~> 5.0)
