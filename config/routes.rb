@@ -16,4 +16,7 @@ get 'projects/rm1'
 get 'projects/foundations'
 get 'projects/sketches'
 
+resources :contacts, only: [:new, :create]
+    get 'contactsindex', to: 'contacts#index'
+
 end
