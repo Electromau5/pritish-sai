@@ -12,12 +12,14 @@ class ContactsController < ApplicationController
 	def create
 		@contact = Contact.new(contact_params)
 			if @contact.save
-				#flash[:success] = "Welcome to the alpha blog #{@contact.contactname}"
-				redirect_to landing_path
+				flash[:success] = "Great to hear from you. I'll get in touch asap."
+				redirect_to root_path
 			else
-				render 'new'
+				flash[:error] = "Whoops. Seems like there were certain errors."
+				redirect_to root_path
 			end
 	end
+
 
 	def destroy
 		@contact = Contact.find(params[:id])

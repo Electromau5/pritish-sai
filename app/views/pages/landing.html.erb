@@ -39,7 +39,7 @@
                                                     <div class="jumbotron">
                                                                     <body class="signup-bg">
                                                                         <div class="container-signup">
-                                                                        <%= form_for(Contact.new, :html => { class: "form-horizontal", role: "form" }) do |c| %>
+                                                                        <%= form_for(@contact, :html => { class: "form-horizontal", role: "form" }) do |c| %>
                                                                          <div class = "form-group">
                                                                                     <div class="form-group">
                                                                                           <%= c.label :name, 'Name' %>
