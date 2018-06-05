@@ -1,30 +1,33 @@
 <body>
 <div class="container-fluid" style="margin-top: 25px">
-	<h3 class="project-name-label">Project Name : </h3>
-	<h3 class="project-name">Where's My Tee?</h3><br><br>
-	<h3 class="project-site-label">Site : </h3>
-	<h3 class="project-site"><%= link_to 'www.wheresmytee.com', 'http://www.wheresmytee.com/', target: '_blank' %></h3><br><br>
-	<h3 class="project-site-label">GitHub : </h3>
-	<h3 class="project-site"><%= link_to 'http://bit.ly/2E51ClI', 'http://bit.ly/2E51ClI/', target: '_blank' %></h3><br><br>
-	<h3 class="project-site-label">Initial Business Proposition : </h3>
-	<h3 class="project-site"><%= link_to 'Proposal for Partnerships', 'https://docs.google.com/document/d/1SBo_GLXqASU53vfGb4dJ93Ageyr1HvIFHYpw5kxe-5o/edit?usp=sharing', target: '_blank' %></h3><br><br><br>
+	<div class="p-name" style="text-align:center">
+		<h3 class="project-name-label">PROJECT: </h3>
+		<h3 class="project-name">WHERE'S MY TEE?</h3><br><br>
+	</div>
+	<hr/>
+	<div class="links">
+		<div class="link-image link-image-1"><%= link_to image_tag('misc/github.png'), 'http://bit.ly/2E51ClI', target: '_blank' %></div>
+		<div class="link-image link-image-2"><%= link_to image_tag('misc/website.png'), 'http://www.wheresmytee.com/', target: '_blank' %></div> 
+		<div class="link-image link-image-3"><%= link_to image_tag('misc/business.png'), 'https://docs.google.com/document/d/1SBo_GLXqASU53vfGb4dJ93Ageyr1HvIFHYpw5kxe-5o/edit?usp=sharing', target: '_blank' %></div> 
+	</div><br />
+	<h3 class="project-deliverables" style="text-align: center; font-size: 30px; font-family: 'Raleway-Light', sans-serif">DELIVERABLES</h3><br />
 	<div class="dev-project-roles">
-		<div class="dev-role">UX DESIGN</div>
-		<div class="dev-role">WEB APP DEVELOPMENT</div>
+		<div class="dev-role">PROTOTYPES</div>
+		<div class="dev-role">WEB APP</div>
 		<div class="dev-role">MARKETING MATERIALS</div>
-		<div class="dev-role">USER TESTING</div>
-		<div class="dev-role">BUSINESS DEVELOPMENT</div>
+		<div class="dev-role">ANALYTICS DOCUMENTATION</div>
+		<div class="dev-role">BUSINESS MODEL CANVAS</div>
 	</div><br>
 	<div class="jumbotron" style="width: 100%; background-color: #0062C2">
 		<h3 class="dev-project-description-label" style="color: #fff; font-size: 60px">MAKE T-SHIRT SEARCH A SIMPLE PROCESS</h3>	
 			<p class="dev-project-description" style="color: #fff; font-size: 20px">
-				The rise of the e-Commerce sector in India has given way to a large number of independent platforms to manufacture original t-shirts based on designs ranging from pop-culture to motivation to random designs. 
+				The rise of the e-Commerce sector in India has given way to a large number of independent platforms to manufacture original t-shirts based on designs ranging from pop-culture to motivation to bikes and cars among others. 
 			</p><br>
 			<p class="dev-project-description" style="color: #fff; font-size: 20px">
-				However with the increase in number of online retailers, it is extremely hard for a consumer to find all the designs they want on one platform. They have to navigate from one website to another because each website caters to different type of designs based on a consumer's interests.
+				However with the increase in number of online retailers, it is extremely hard for a consumer to find all the designs they want on one platform. They have to navigate from one website to another because each website caters to different type of designs based on a consumer's personality.
 			</p><br>
 			<p class="dev-project-description" style="color: #fff; font-size: 20px">
-				Where's My Tee? or WMT aims to get every single online T-Shirt retailer in India to upload all their products to its platform so consumers would have one universal website to find all the designs they want and make purchases on the brand's own websites. Essentially WMT is a T-Shirt aggregator that aims to increase incoming traffic for all the brands that showcase their products.
+				Where's My Tee? or WMT aims to get every single online T-Shirt retailer in India to upload all their products to its platform so consumers would have one universal website to find all the designs that cater to their interests. WMT plays the role of an aggregation platform that redirects traffic externally. In a nutshell, a user discovers the designs on WMT and makes the purchases on the brand's own website.
 			</p>
 	</div>
 	<div class="cem-web-image" >
@@ -234,6 +237,95 @@
 								<!-- CHAPTER 3 -->
 	<div class="jumbotron" style="background-color: #fff">
 		<h4 class="chapter">CHAPTER 3: WHERE'S MY TEE?</h4>
+			<div class="dev-project-description-label">
+				FOCUS ON ONE PRODUCT AND ONE DEMOGRAPHIC
+			</div>
+			<p class="dev-project-description">
+				One of the biggest issues we faced with the previous iterations of the platform was marketing. Designing and building the platform was only the first phase of the startup. Getting a large influx of users and increasing engagement was the next phase. It became clear that having a diverse set of products did not help differentiate us from competing platforms. We needed to pivot to a site that only focused on one product type and one demographic. After a series of intense discussions we decided to focus on T-Shirts for the male demographic. 
+			</p><br>
+			<div class="highlights">
+				"Having a diverse set of products did not help differentiate us from competing platforms"
+			</div><br>
+			<p class="dev-project-description">		
+				<table class="table table-bordered" style="width: 70%">
+					  <thead>
+					    <tr>
+					      <th scope="col" style="color: #820000; font-weight: bold; font-size: 20px">USER</th>
+					      <th scope="col" style="color: #1A5CCA; font-weight: bold; font-size: 20px">BROWSE</th>
+					      <th scope="col" style="color: #1A5CCA; font-weight: bold; font-size: 20px">COMMERCE</th>
+					      <th scope="col" style="color: #1A5CCA; font-weight: bold; font-size: 20px">SOCIAL</th>
+					      <th scope="col" style="color: #1A5CCA; font-weight: bold; font-size: 20px">SOCIAL</th>
+					      <th scope="col" style="color: #1A5CCA; font-weight: bold; font-size: 20px">ACCOUNT</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					     
+					      <td style="color: #820000">Regular User</td>
+					      <td>Scroll from Collection or Brand</td>
+					      <td>Save/ Unsave T-Shirt</td>
+					      <td>Follow/ Unfollow Brand</td>
+					      <td>Share T-Shirt on Social Media</td>
+					      <td>Update Profile</td>
+					    </tr>
+					      <tr> 
+					     
+					       <td style="color: #820000">Brand or Seller</td>
+					      <td>Scroll from Collection or Brand</td>
+					      <td>Upload/ Edit/ Delete T-Shirt</td>
+					      <td>Nil</td>
+					      <td>Nil</td>
+					      <td>Update Business Page</td>
+					    </tr>
+					    <tr>
+					     
+					       <td style="color: #820000">Admin</td>
+					      <td>Scroll from Collection or Brand</td>
+					      <td>Edit/ Delete T-Shirt, Brand, or User</td>
+					      <td>Nil</td>
+					      <td>Nil</td>
+					      <td>Nil</td>
+					    </tr>
+					  </tbody>
+					</table>
+			</p>
+			<div class="dev-project-description-label">
+				THE THREE FACTORS THAT DETERMINE THE USER EXPEREICNE
+			</div>
+				<div class="cem-model-image" >
+					<%= image_tag('wmt/model.png') %>
+				</div><br>
+				<div class="cem-web-image" >
+					<%= image_tag('wmt/HiFi/landing.png') %>
+				</div><br>
+				<h3 class="dev-project-description-label">SEARCH BY PRODUCTS OR SEARCH BY BRAND</h3>
+				<p class="dev-project-description">
+					We hypothesised that we would have several types of users coming to the site. A user who searchs for a particular design regardless of what kind of manufacturer or brand is behind them was our primary user. They would either use the search bar with keywords relevant to the design, or search for 'CATEGORIES' of products. The second type of user we wanted to focus on was the user who was brand loyal and would only buy products from a particular brand. Taking these two user variations into considerations we decided to put filtering by 'COLLECTIONS' or 'BRAND' on the landing page.
+				</p>
+				<div class="highlights">
+					"We decided to put filtering by 'COLLECTIONS' or 'BRANDS' on the landing page."
+			</div><br>
+					<div class="cem-listng-row">
+						<div class="cem-listing">
+							<%= image_tag('wmt/collections.png') %>
+						</div>
+						<div class="cem-listing">
+							<%= image_tag('wmt/brands.png') %>
+						</div>
+					</div>
+					<p class="dev-project-description">
+						We decided to go with copyright free vectors for the collections and the brands that worked with us uploaded their individual logos to their respective profile pages.
+					</p>
+					<h3 class="dev-project-description-label">SIMPLE TO UPLOAD, EDIT, AND DELETE</h3>
+				<p class="dev-project-description">
+					We kept the T-Shirt onboarding process as simple as possible. A very visible button that sellers could press to onboard a new product followed a product upload page where brands and sellers need to enter the most basic of information. The first version had a lot more fields to fill, but it started to prove too excruciating for sellers so we decided to only include the most basic of information with further relevant info on the brand's own website that a user can access by clicking on a product.
+				</p>
+				<div class="highlights">
+					"Further relevant info on the brand's own website that a user can access by clicking on a product."
+			</div><br>
+					<div class="cem-web-image" >
+						<%= image_tag('wmt/upload.png') %>
+					</div>
 		<h3 class="dev-project-description-label">MOBILE FIRST. MOBILE ALWAYS FIRST.</h3>
 		<p class="dev-project-description">
 			From day one, we wanted to make sure the web app is mobile responsive. We used bootstrap to make sure that the interactions were seamless on any resolution. All our marketing data indicated that we were getting most of our traffic from mobile so it was extremely important to allow users and sellers with any device to make use of all the functions of the web app.

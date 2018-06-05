@@ -16,6 +16,54 @@
 	font-size: 15px;
 }
 
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.links
+{
+	text-align:center;
+}
+
+.link-image
+{
+	display:inline-block;
+    margin-right:25px;
+    padding:5px;
+}
+
+.link-image-1 img
+{
+	width: 80px;
+	margin-right: 150px;
+
+}
+
+.link-image-2 img
+{
+	width: 80px;
+}
+
+.link-image-3 img
+{
+	width: 80px;
+	margin-left: 150px;
+}
+
+h3 .project-deliverables
+{
+	font-family: 'Raleway-Light', sans-serif;
+	//font-weight: bold;
+	display: inline;
+	text-align:center;
+	font-size: 30px; 
+}
+
 /** CoasterCrunch **/
 
 .main-title
@@ -174,6 +222,15 @@ table.table
 	font-weight: bold;
 	margin-bottom: -10px;
 }
+.cem-model-image > img
+{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	//text-align: center;
+}
+
 .cem-web-image > img
 {
 	display: block;
@@ -302,15 +359,20 @@ table.table
 
 .project-name
 {
-	font-family: 'Raleway-Regular', sans-serif;
+	font-family: 'Raleway-Light', sans-serif;
 	margin-left: 10px;	
 	display: inline;
+	font-size: 40px;
+	color: #40BCD2;
 }
 
 .project-name-label
 {
-	font-family: 'Raleway-ExtraLight', sans-serif;
+	font-family: 'Raleway-Medium', sans-serif;
+	//font-weight: bold;
 	display: inline;
+	text-align:center;
+	font-size: 40px; 
 }
 
 .project-title-container
