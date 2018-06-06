@@ -1,20 +1,90 @@
 <div class="container" style="margin-top: 25px">
-	<h3 class="project-name-label">Project Name : </h3>
-	<h3 class="project-name">C.R. Kannan Portoflio Site</h3>
-	<br><br>
-	<h3 class="project-site-label">Site : </h3>
-	<h3 class="project-site"><%= link_to 'www.crkannan.com', 'http://crkannan.com/', target: '_blank' %></h3>
-	<h3 class="project-description-label">Client Requirements : </h3>
-		<p class="project-description">
-			The Client wanted a website that reflected his years of experience working as a brand consultant. The site is essentially a tool to get more clients for his consultancy.
-		</p>
-	<h3 class="project-role-label">Site Features : </h3>
-		<p class="project-feature">A simple and responsive design</p>
-		<p class="project-feature">A resume page that details the client's experience </p>
-		<p class="project-feature">A milestones page that showcases the progression of the client's experience</p>
-		<p class="project-feature">A gallery page with the client's work over the years</p>
-		<p class="project-feature">A contact page with the client's information</p><br>
-	<h3 class="project-role-label"> Toolbox for the site : </h3><br>
+	<div class="p-name" style="text-align:center">
+		<h3 class="project-name-label">PROJECT: </h3>
+		<h3 class="project-name">C.R. KANNAN</h3><br><br>
+	</div>
+	<hr/>
+	<div class="links">
+		<div class="link-image link-image-2">
+			<%= link_to image_tag('misc/website.png'), 'http://crkannan.com/', target: '_blank' %>
+		</div> 
+	</div><br />
+	<p class="highlights">"A Portfolio Website for a Professional Marketing Consultant"</p>
+		<h3 class="project-deliverables" style="text-align: center; font-size: 30px; font-family: 'Raleway-Light', sans-serif">
+			DELIVERABLES
+		</h3><br />
+		<div class="dev-project-roles">
+			<div class="dev-role">PROTOTYPES</div>
+			<div class="dev-role">RESPONSIVE WEBSITE</div>
+			<div class="dev-role">ANALYTICS INTEGRATION</div>
+		</div><br>
+		<div class="jumbotron">
+			<h3 class="dev-project-description-label">THE CLIENT'S REQUIREMENTS</h3>
+				<p class="dev-project-description" style="margin-top: 10px">
+					The client was a marketing consultant who wanted a website to show the history of their work along with all elements of their resume. The site needed to have a gallery page, a page with history of milestones, a resume page, an 'about me' page, and a contact page in addition to the landing page.
+				</p>
+				<p class="dev-project-description" style="margin-top: 10px">
+					I built the website with Ruby as the primary backend language and Rails as the framework. In addition to using HTML5 and CSS3 elements, I also used several jQuery plugins to make the site more dynamic and interactive.
+				</p>
+		</div>
+		<div class="jumbotron" style="background-color: #fff">
+			<h3 class="dev-project-description-label">A VERY MINIMAL LANDING PAGE</h3>
+			<div class="cem-listng-row">
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-2.png') %>
+				</div>
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-1.png') %>
+				</div>
+			</div><br><br>
+			<p class="dev-project-description" style="margin-top: 10px">
+				The landing page has a very simple banner image that I edited with photoshop. I added the brand name at the top left and the headers to the top right. When a user hovers over any of the header, the background switches to an organge color to signify which option has been chosen.
+			</p>
+			<p class="dev-project-description" style="margin-top: 10px">
+				I added the social links at the bottom right. When a user hovers over any of the social icons, they scale up to reveal which option has been chosen.
+			</p>
+			<p class="dev-project-description" style="margin-top: 10px">
+				I was able to achieve this with only css. The hover function was very important because it added another level of interactivity to the website.
+			</p><br>
+		</div>
+			<div class="jumbotron">
+				<h3 class="dev-project-description-label">A DROP DOWN FOR EACH MILESTONE</h3>
+					<div class="cem-listng-row">
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-5.png') %>
+				</div>
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-6.png') %>
+				</div>
+			</div><br><br>
+				<p class="dev-project-description" style="margin-top: 10px">
+					The Milestones are reflected with each button (taken from bootstrap). The buttons are aligned in a vertical line to showcase a timeline.
+				</p>
+				<p class="dev-project-description" style="margin-top: 10px">
+					Clicking on each button opens a grey-box that contains all the milestones pertaining to that year. The goal is to have ample amount of information without overcrowding.
+				</p>
+			</div>
+				<div class="jumbotron" style="background-color: #fff">
+			<h3 class="dev-project-description-label">A GALLERY TO HIGHLIGHT A RESUME</h3>
+			<div class="cem-listng-row">
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-7.png') %>
+				</div>
+				<div class="cem-listing">
+					<%= image_tag('crk/layout-8.png') %>
+				</div>
+			</div><br><br>
+			<p class="dev-project-description" style="margin-top: 10px">
+				I decided to use a very old-fashioned design wiht the font and the overall layout to highlight that these milestones took place a lot of years. 
+			</p>
+			<p class="dev-project-description" style="margin-top: 10px">
+				I broke down each set of images according to the specific category that they belong to.
+			</p>
+			<p class="dev-project-description" style="margin-top: 10px">
+				Clicking on each image opens a zoomed version which I was able to achieve with the fancybox plugin.
+			</p><br>
+		</div>
+	<h3 class="dev-project-description-label">BUILT WITH</h3>
 	 	<div class="row">
 			<div class="col-md-2 col-sm-12 col-lg-3 toolbox">
 				<%= image_tag('felixcalis/html5.png') %>
@@ -32,13 +102,4 @@
 				<%= image_tag('felixcalis/ps.png') %>
 			</div>
 		</div>
-	<h3 class="project-role-label"> Final Product : </h3><br>
-		<div class="flexslider">
-    		<ul class="slides">
-    		  <li class="project-image1"><%= image_tag('crk/layout-1.png') %></li>
-    		  <li class="project-image2"><%= image_tag('crk/layout-2.png') %></li>
-		      <li class="project-image3"><%= image_tag('crk/layout-3.png') %></li>
-		      <li class="project-image3"><%= image_tag('crk/layout-4.png') %></li>
-		      <li class="project-image3"><%= image_tag('crk/layout-5.png') %></li>
-    		</ul>
-  		</div>
+	</div>
